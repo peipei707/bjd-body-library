@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BJD / MJD 身体参考图库</title>
+<style>
+  :root {
+    --bg: #faf7f4;
+    --card: #ffffff;
+    --ink: #2b2320;
+    --ink-2: #6b5d55;
+    --line: #e8ddd4;
+    --accent: #b0526b;
+    --accent-soft: #f6e3e8;
+    --chip: #f1e9e2;
+    --chip-on: #b0526b;
+    --shadow: 0 1px 3px rgba(60,40,30,.08), 0 6px 20px rgba(60,40,30,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1816;
+      --card: #262120;
+      --ink: #ece4de;
+      --ink-2: #a99a90;
+      --line: #3a322e;
+      --accent: #d98aa0;
+      --accent-soft: #3d2a30;
+      --chip: #322b28;
+      --chip-on: #d98aa0;
+      --shadow: 0 1px 3px rgba(0,0,0,.4);
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+    line-height: 1.55;
+  }
+  a { color: var(--accent); }
+
+  header { padding: 34px 20px 10px; max-width: 1280px; margin: 0 auto; }
+  header h1 { font-size: 26px; letter-spacing: .04em; }
+  header h1 small { font-weight: 400; color: var(--ink-2); font-size: 14px; margin-left: 10px; }
+  .stats { color: var(--ink-2); font-size: 13px; margin-top: 6px; }
+
+  .panel {
+    max-width: 1280px; margin: 14px auto 0; padding: 14px 20px 16px;
+    position: sticky; top: 0; z-index: 30;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .frow { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-bottom: 8px; }
+  .frow:last-child { margin-bottom: 0; }
+  .flabel { font-size: 12px; color: var(--ink-2); min-width: 3em; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--chip); color: var(--ink);
+    border-radius: 999px; padding: 3px 12px; font-size: 12.5px; cursor: pointer;
+    transition: .15s;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip.on { background: var(--chip-on); border-color: var(--chip-on); color: #fff; }
+  select, input[type=search] {
+    border: 1px solid var(--line); background: var(--card); color: var(--ink);
+    border-radius: 8px; padding: 5px 10px; font-size: 13px;
+  }
+  input[type=search] { width: 220px; }
+  .count-note { font-size: 12px; color: var(--ink-2); margin-left: auto; }
+
+  main { max-width: 1280px; margin: 0 auto; padding: 18px 20px 60px; }
+  .group-title {
+    margin: 26px 0 4px; font-size: 18px; display: flex; align-items: baseline; gap: 10px;
+  }
+  .group-title small { color: var(--ink-2); font-size: 12.5px; font-weight: 400; }
+  .group-count { font-size: 12px; color: var(--accent); }
+  .grid {
+    display: grid; gap: 16px; margin-top: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column;
+  }
+  .imgbox { position: relative; aspect-ratio: 3/4; background: linear-gradient(160deg, var(--chip), var(--bg)); cursor: zoom-in; }
+  .imgbox img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .imgbox .noimg {
+    position: absolute; inset: 0; display: flex; flex-direction: column; gap: 6px;
+    align-items: center; justify-content: center; color: var(--ink-2); font-size: 12.5px;
+  }
+  .noimg .glyph { font-size: 34px; opacity: .55; }
+  .typetag {
+    position: absolute; top: 8px; left: 8px; font-size: 11px; padding: 2px 8px;
+    border-radius: 6px; color: #fff; background: #8a6da8;
+  }
+  .typetag.bjd { background: #b0526b; }
+  .typetag.mjd { background: #4f7fa8; }
+  .viewtabs { display: flex; gap: 4px; padding: 6px 8px 0; flex-wrap: wrap; }
+  .viewtab {
+    font-size: 11px; padding: 1px 8px; border-radius: 6px; cursor: pointer;
+    border: 1px solid var(--line); background: var(--chip); color: var(--ink-2);
+  }
+  .viewtab.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  .cbody { padding: 9px 12px 12px; display: flex; flex-direction: column; gap: 5px; flex: 1; }
+  .brandline { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--ink-2); }
+  .brandline b { color: var(--accent); font-weight: 600; }
+  .cname { font-size: 14.5px; font-weight: 600; line-height: 1.3; }
+  .cname small { display: block; font-weight: 400; font-size: 11px; color: var(--ink-2); margin-top: 1px; }
+  .spec { font-size: 12px; color: var(--ink-2); }
+  .spec b { color: var(--ink); font-weight: 600; }
+  .tagrow { display: flex; flex-wrap: wrap; gap: 4px; }
+  .stag { font-size: 10.5px; padding: 1px 7px; border-radius: 5px; background: var(--chip); color: var(--ink-2); }
+  .stag.bust { background: var(--accent-soft); color: var(--accent); }
+  .notes { font-size: 11.5px; color: var(--ink-2); }
+  .srcline { margin-top: auto; padding-top: 7px; }
+  .srcline a {
+    font-size: 12px; text-decoration: none; border: 1px solid var(--line);
+    padding: 3px 10px; border-radius: 8px; display: inline-block;
+  }
+  .srcline a:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .empty { text-align: center; color: var(--ink-2); padding: 80px 0; }
+
+  #lightbox {
+    position: fixed; inset: 0; background: rgba(20,12,10,.86); z-index: 99;
+    display: none; align-items: center; justify-content: center; flex-direction: column; gap: 12px;
+  }
+  #lightbox.show { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 78vh; border-radius: 8px; background: #fff; }
+  #lb-cap { color: #f0e8e2; font-size: 13px; text-align: center; padding: 0 16px; }
+  #lb-thumbs { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; max-width: 92vw; }
+  #lb-thumbs .viewtab { background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.25); color: #eee; }
+  #lb-thumbs .viewtab.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  footer { max-width: 1280px; margin: 0 auto; padding: 20px; color: var(--ink-2); font-size: 12px; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<header>
+  <h1>BJD / MJD 身体参考图库 <small>树脂球关节 &amp; 胶皮机械关节 · 素体资料索引</small></h1>
+  <div class="stats" id="stats">加载中…</div>
+</header>
+
+<div class="panel">
+  <div class="frow">
+    <span class="flabel">类型</span><div class="chips" id="f-type"></div>
+    <span class="flabel" style="margin-left:10px">性别</span><div class="chips" id="f-gender"></div>
+    <input type="search" id="f-q" placeholder="搜索名称 / 品牌 / 备注…" style="margin-left:auto">
+  </div>
+  <div class="frow">
+    <span class="flabel">尺寸</span><div class="chips" id="f-size"></div>
+  </div>
+  <div class="frow">
+    <span class="flabel">风格</span><div class="chips" id="f-style"></div>
+  </div>
+  <div class="frow">
+    <span class="flabel">视角</span><div class="chips" id="f-view"></div>
+    <span class="flabel" style="margin-left:10px">品牌</span>
+    <select id="f-brand"><option value="">全部品牌</option></select>
+    <span class="count-note" id="count-note"></span>
+  </div>
+</div>
+
+<main id="main"></main>
+
+<div id="lightbox">
+  <img id="lb-img" alt="">
+  <div id="lb-cap"></div>
+  <div id="lb-thumbs"></div>
+</div>
+
+<footer>
+  图片与商品信息版权均归各品牌方所有,本页仅作个人参考索引,图片直接引用自「来源」链接所示页面;若图片未显示,请点击卡片上的来源链接查看官方页面。<br>
+  数据人工整理,规格以品牌官方页面为准。补充新身体:编辑 <code>data/raw/*.json</code> 后运行 <code>python3 scripts/build.py</code>。
+</footer>
+
+<script src="data/bodies.js"></script>
+<script>
+const DATA = (window.BJD_BODIES || []).slice();
+const SIZE_ORDER = ["叔叔体","三分","大四分","四分","六分","八分","十二分","其他"];
+const SIZE_DESC = {
+  "叔叔体":"约 68cm 及以上","三分":"1/3 · 约 55–67cm","大四分":"约 48–54cm",
+  "四分":"1/4 · 约 38–47cm","六分":"1/6 · 约 24–33cm","八分":"1/8 · 约 15–23cm",
+  "十二分":"1/12 · 约 10–14cm","其他":"特殊规格"
+};
+const GENDER_CN = { male:"男", female:"女", neutral:"中性" };
+const VIEWS = ["正面","背面","侧面","细节"];
+
+const state = { type:"", gender:"", size:"", styles:new Set(), view:"", brand:"", q:"" };
+
+function chipbar(el, items, get, set, allLabel) {
+  const box = document.getElementById(el);
+  const mk = (val, label) => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.textContent = label;
+    b.onclick = () => { set(val, b); render(); };
+    box.appendChild(b); return b;
+  };
+  box._buttons = [];
+  if (allLabel !== null) box._buttons.push([mk("", allLabel || "全部"), ""]);
+  items.forEach(v => box._buttons.push([mk(v, v), v]));
+  box._sync = () => box._buttons.forEach(([b, v]) => b.classList.toggle("on", get(v)));
+  box._sync();
+}
+
+function init() {
+  chipbar("f-type", ["BJD","MJD"], v => (state.type||"")===v, v => state.type = v);
+  chipbar("f-gender", ["male","female","neutral"].map(g=>GENDER_CN[g]), v =>
+    v ? GENDER_CN[state.gender] === v : state.gender === ""
+  , v => {
+    state.gender = v ? Object.keys(GENDER_CN).find(k=>GENDER_CN[k]===v) : "";
+  });
+  chipbar("f-size", SIZE_ORDER, v => state.size===v, v => state.size = v);
+  const styleSet = [...new Set(DATA.flatMap(d => d.styles||[]))].sort((a,b)=>a.localeCompare(b,"zh"));
+  chipbar("f-style", styleSet, v => v ? state.styles.has(v) : state.styles.size===0, v => {
+    if (!v) state.styles.clear();
+    else state.styles.has(v) ? state.styles.delete(v) : state.styles.add(v);
+  });
+  chipbar("f-view", VIEWS, v => state.view===v, v => state.view = v);
+
+  const brands = [...new Set(DATA.map(d => d.brand))].sort();
+  const sel = document.getElementById("f-brand");
+  brands.forEach(b => {
+    const d = DATA.find(x=>x.brand===b);
+    const o = document.createElement("option");
+    o.value = b;
+    o.textContent = d.brand_cn && d.brand_cn !== b ? `${b} · ${d.brand_cn}` : b;
+    sel.appendChild(o);
+  });
+  sel.onchange = () => { state.brand = sel.value; render(); };
+  document.getElementById("f-q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
+
+  const nImg = DATA.reduce((n,d)=>n+(d.views||[]).length,0);
+  document.getElementById("stats").textContent =
+    `共收录 ${DATA.length} 款身体 · ${brands.length} 个品牌 · ${nImg} 张参考图 · 按尺寸 / 性别 / 风格 / 视角检索`;
+  render();
+}
+
+function match(d) {
+  if (state.type && d.type !== state.type) return false;
+  if (state.gender && d.gender !== state.gender) return false;
+  if (state.size && d.size_class !== state.size) return false;
+  if (state.brand && d.brand !== state.brand) return false;
+  if (state.styles.size && ![...state.styles].every(s => (d.styles||[]).includes(s))) return false;
+  if (state.view && !(d.views||[]).some(v => v.view === state.view)) return false;
+  if (state.q) {
+    const hay = [d.brand,d.brand_cn,d.name,d.name_cn,d.notes,(d.styles||[]).join(" ")].join(" ").toLowerCase();
+    if (!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+
+function pickView(d) {
+  const vs = d.views || [];
+  if (!vs.length) return -1;
+  if (state.view) {
+    const i = vs.findIndex(v => v.view === state.view);
+    if (i >= 0) return i;
+  }
+  const i = vs.findIndex(v => v.view === "正面");
+  return i >= 0 ? i : 0;
+}
+
+function card(d) {
+  const el = document.createElement("div");
+  el.className = "card";
+  const vi = pickView(d);
+  const vs = d.views || [];
+  const img = vi >= 0 ? `
+    <img src="${esc(vs[vi].url)}" alt="${esc(d.name)}" loading="lazy" referrerpolicy="no-referrer"
+         onerror="this.style.display='none';this.parentNode.querySelector('.noimg').style.display='flex'">
+    <div class="noimg" style="display:none"><span class="glyph">🩰</span>图片被来源站防盗链<br>请点下方「来源」查看</div>`
+    : `<div class="noimg"><span class="glyph">🩰</span>暂无直链图 · 见来源页</div>`;
+  const tabs = vs.length > 1 ? `<div class="viewtabs">` + vs.map((v,i) =>
+      `<span class="viewtab ${i===vi?'on':''}" data-i="${i}">${esc(v.view)}·${esc(v.part)}</span>`).join("") + `</div>` : "";
+  const spec = [
+    d.height_cm ? `<b>${d.height_cm}cm</b>` : null,
+    d.scale ? esc(d.scale) : null,
+    GENDER_CN[d.gender] || null,
+    d.material ? esc(d.material) : null
+  ].filter(Boolean).join(" · ");
+  el.innerHTML = `
+    <div class="imgbox">${img}<span class="typetag ${d.type==="BJD"?"bjd":"mjd"}">${esc(d.type)}</span></div>
+    ${tabs}
+    <div class="cbody">
+      <div class="brandline"><b>${esc(d.brand)}</b>${d.brand_cn && d.brand_cn!==d.brand ? esc(d.brand_cn) : ""}<span>· ${esc(d.country||"")}</span></div>
+      <div class="cname">${esc(d.name_cn || d.name)}<small>${esc(d.name || "")}</small></div>
+      <div class="spec">${spec}</div>
+      <div class="tagrow">${(d.styles||[]).map(s=>`<span class="stag">${esc(s)}</span>`).join("")}
+        ${(d.bust_options||[]).length ? `<span class="stag bust">胸围 ${d.bust_options.length} 选</span>` : ""}</div>
+      ${d.notes ? `<div class="notes">${esc(d.notes)}</div>` : ""}
+      <div class="srcline"><a href="${esc(d.source?.url||"#")}" target="_blank" rel="noopener noreferrer">来源:${esc(d.source?.site||"官方页面")} ↗</a></div>
+    </div>`;
+  const imgbox = el.querySelector(".imgbox");
+  if (vs.length) imgbox.onclick = () => openLightbox(d, Math.max(vi,0));
+  el.querySelectorAll(".viewtab").forEach(t => t.onclick = e => {
+    e.stopPropagation();
+    const i = +t.dataset.i;
+    const im = imgbox.querySelector("img");
+    const no = imgbox.querySelector(".noimg");
+    if (im) { im.style.display = ""; im.src = vs[i].url; }
+    if (no) no.style.display = "none";
+    el.querySelectorAll(".viewtab").forEach(x => x.classList.toggle("on", x===t));
+  });
+  return el;
+}
+
+function render() {
+  document.querySelectorAll(".panel .chips").forEach(c => c._sync && c._sync());
+  const main = document.getElementById("main");
+  main.innerHTML = "";
+  const hits = DATA.filter(match);
+  document.getElementById("count-note").textContent = `显示 ${hits.length} / ${DATA.length}`;
+  if (!hits.length) { main.innerHTML = `<div class="empty">没有符合筛选的身体,试试放宽条件。</div>`; return; }
+  for (const sc of SIZE_ORDER) {
+    const group = hits.filter(d => d.size_class === sc);
+    if (!group.length) continue;
+    group.sort((a,b) => a.brand.localeCompare(b.brand) || (b.height_cm||0)-(a.height_cm||0));
+    const h = document.createElement("div");
+    h.className = "group-title";
+    h.innerHTML = `${sc} <small>${SIZE_DESC[sc]||""}</small> <span class="group-count">${group.length} 款</span>`;
+    main.appendChild(h);
+    const g = document.createElement("div");
+    g.className = "grid";
+    group.forEach(d => g.appendChild(card(d)));
+    main.appendChild(g);
+  }
+}
+
+let lbData = null;
+function openLightbox(d, i) {
+  lbData = d;
+  const lb = document.getElementById("lightbox");
+  lb.classList.add("show");
+  setLb(i);
+  const th = document.getElementById("lb-thumbs");
+  th.innerHTML = "";
+  (d.views||[]).forEach((v, j) => {
+    const b = document.createElement("span");
+    b.className = "viewtab" + (j===i?" on":"");
+    b.textContent = `${v.view}·${v.part}`;
+    b.onclick = e => { e.stopPropagation(); setLb(j);
+      th.querySelectorAll(".viewtab").forEach((x,k)=>x.classList.toggle("on",k===j)); };
+    th.appendChild(b);
+  });
+}
+function setLb(i) {
+  const v = (lbData.views||[])[i];
+  const im = document.getElementById("lb-img");
+  im.referrerPolicy = "no-referrer";
+  im.src = v.url;
+  document.getElementById("lb-cap").textContent =
+    `${lbData.brand} · ${lbData.name_cn||lbData.name} — ${v.view}·${v.part}`;
+}
+document.getElementById("lightbox").onclick = () => document.getElementById("lightbox").classList.remove("show");
+document.addEventListener("keydown", e => { if (e.key==="Escape") document.getElementById("lightbox").classList.remove("show"); });
+
+function esc(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+init();
+</script>
+</body>
+</html>

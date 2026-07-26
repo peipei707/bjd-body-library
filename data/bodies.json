@@ -1,0 +1,2829 @@
+[
+  {
+    "id": "2ddoll-73-boy-body",
+    "brand": "2D Doll",
+    "brand_cn": "二次元",
+    "country": "CN",
+    "name": "2D 73cm Boy Body",
+    "name_cn": "73cm 叔叔男素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 73.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/2d-73cm-boy-body-p-12960.html?cPath=394_396"
+    },
+    "notes": "二次元Uncle线73cm男素体,品牌另有68cm 2.0/3.0叔体版本。"
+  },
+  {
+    "id": "2ddoll-68-girl-body",
+    "brand": "2D Doll",
+    "brand_cn": "二次元",
+    "country": "CN",
+    "name": "2D 68cm Girl Body",
+    "name_cn": "68cm 女素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 68.0,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/2d-68cm-girl-body-p-19248.html"
+    },
+    "notes": "二次元68cm大尺寸女素体,少见的叔级高挑女体。"
+  },
+  {
+    "id": "dikadoll-70cm-senior-boy-body",
+    "brand": "DikaDoll",
+    "brand_cn": "迪卡",
+    "country": "CN",
+    "name": "DikaDoll 70cm Senior Boy Body",
+    "name_cn": "迪卡 70cm Senior 男素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 70.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LegendDoll",
+      "url": "https://www.legenddoll.net/goods-7575.html"
+    },
+    "notes": "迪卡Senior线70cm成熟男体,树脂球关节,以先进的手指关节工艺闻名,另有73cm加高版。"
+  },
+  {
+    "id": "dollchateau-a-body-07",
+    "brand": "Doll Chateau",
+    "brand_cn": "娃堡",
+    "country": "CN",
+    "name": "A-body-07 Boy Body 72cm",
+    "name_cn": "A体-07 成年男素体(72cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 72.0,
+    "gender": "male",
+    "styles": [
+      "纤细",
+      "特殊体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LegendDoll",
+      "url": "https://www.legenddoll.net/goods-20204.html"
+    },
+    "notes": "娃堡A线成年男体,含头约72cm,胸围31.4cm,标志性修长艺术风骨架。"
+  },
+  {
+    "id": "dfa-70-boy",
+    "brand": "Doll Family-A",
+    "brand_cn": "娃族A",
+    "country": "CN",
+    "name": "DF-A 70cm Boy Body",
+    "name_cn": "70cm 男素体(叔体)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 70.0,
+    "gender": "male",
+    "styles": [
+      "成熟"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "http://www.acbjd.com/dfa-70cm-boy-body-p-12512.html"
+    },
+    "notes": "娃族A的70cm男素体,SD17级叔体,另有68cm叔体线。"
+  },
+  {
+    "id": "dfh-72-boy-ver2",
+    "brand": "Doll Family-H",
+    "brand_cn": "娃族H",
+    "country": "CN",
+    "name": "DF-H 72cm Boy Body Ver.II",
+    "name_cn": "72cm 男素体二代(叔体)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 72.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/dfh-72cm-boy-body-verii-p-15775.html"
+    },
+    "notes": "娃族H72cm男素体第二版,经典国产叔体,另有68cm与62cm版本。"
+  },
+  {
+    "id": "dollmore-trinity-f",
+    "brand": "Dollmore",
+    "brand_cn": "Dollmore",
+    "country": "KR",
+    "name": "Trinity Doll F (105cm)",
+    "name_cn": "Trinity F 女体(105cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": null,
+    "size_class": "叔叔体",
+    "height_cm": 105.0,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "写实",
+      "特殊体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Trinity_(105_cm)"
+    },
+    "notes": "105cm超大型近真人比例女体,2012年问世时为市售最大BJD线。"
+  },
+  {
+    "id": "dollshe-khan-24m-classic-maxi",
+    "brand": "Dollshe",
+    "brand_cn": "Dollshe",
+    "country": "KR",
+    "name": "Khan 24M Classic Maxi Body (72cm)",
+    "name_cn": "Khan 24M Classic Maxi 男体(72cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "叔叔体",
+    "height_cm": 72.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Dollshe Craft官网",
+      "url": "https://www.dollshecraft.com/product/khan-24m-classic-maxi-72cm/"
+    },
+    "notes": "72cm Classic Maxi级写实男体,胸围37.5cm,Dollshe标志性大叔体。"
+  },
+  {
+    "id": "dollshe-18m-pure-body",
+    "brand": "Dollshe",
+    "brand_cn": "Dollshe",
+    "country": "KR",
+    "name": "18M Pure Body",
+    "name_cn": "18M Pure 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "叔叔体",
+    "height_cm": 69.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "纤细",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Dollshe Craft官网",
+      "url": "https://www.dollshecraft.com/product/18m-pure-body/"
+    },
+    "notes": "18M系Pure风格男体,全高约69cm(690mm),线条修长写实。"
+  },
+  {
+    "id": "dollstown-18years-boy",
+    "brand": "Dollstown",
+    "brand_cn": "Dollstown",
+    "country": "KR",
+    "name": "Dollstown 18years Boy Body",
+    "name_cn": "Dollstown 18岁男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "叔叔体",
+    "height_cm": 73.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Dollstown"
+    },
+    "notes": "含头约73cm的写实成熟体,分男女款双段躯干,另有纤细的Elf女体线。"
+  },
+  {
+    "id": "dollzone-b70-004-1",
+    "brand": "DollZone",
+    "brand_cn": "娃之领域",
+    "country": "CN",
+    "name": "70.5cm Male Body B70-004-1",
+    "name_cn": "70.5cm 男素体 B70-004-1",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 70.5,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LegendDoll",
+      "url": "https://www.legenddoll.net/goods-31230.html"
+    },
+    "notes": "娃之领域B70系男体,含头约70.5cm,胸围33.5cm、腰围21.7cm、臀围29cm。"
+  },
+  {
+    "id": "gem-of-doll-70cm-boy-body",
+    "brand": "GEM of Doll",
+    "brand_cn": "光年",
+    "country": "CN",
+    "name": "GEM of Doll 70cm Boy Body",
+    "name_cn": "光年 70cm 叔体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 70.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Dolce Luce Dolls",
+      "url": "https://www.dolcelucedolls.com/gemofdoll"
+    },
+    "notes": "光年70cm叔体,肩宽16.3cm、腿长42.5cm、头围20.5cm,成熟男性比例,多用于古风奇幻男娃。"
+  },
+  {
+    "id": "granado-embody",
+    "brand": "Granado",
+    "brand_cn": "Granado",
+    "country": "CN",
+    "name": "Embody Male Body",
+    "name_cn": "Embody 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "叔叔体",
+    "height_cm": 70.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "BJD Collectasy",
+      "url": "https://bjdcollectasy.com/2016/11/07/embody-a-review/"
+    },
+    "notes": "含头约70cm的大男体,是同尺寸 Evol 体的减肌肉版,可动性佳,可穿 Iplehouse EID/SID 级衣物。"
+  },
+  {
+    "id": "impldoll-idol-tgb-72",
+    "brand": "Impldoll",
+    "brand_cn": "Impldoll",
+    "country": "CN",
+    "name": "Idol 72cm Boy Body TGB (Ver.3)",
+    "name_cn": "Idol 72cm 男素体 TGB(三代)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 72.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/impl-72cm-boy-bodytgb-p-10091.html"
+    },
+    "notes": "Impldoll Idol超模线72cm男体TGB第三版,肌肉写实成熟风。"
+  },
+  {
+    "id": "iplehouse-eid-man-superhero",
+    "brand": "Iplehouse",
+    "brand_cn": "Iplehouse",
+    "country": "KR",
+    "name": "EID Man Body (Super Hero type)",
+    "name_cn": "EID 男体(超级英雄型)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "叔叔体",
+    "height_cm": 68.5,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "BJD Shop代理店",
+      "url": "https://bjd-shop.com/body-parts-c-25/iplehouse-eid-man-body-super-hero-type-bjd-p-520.html"
+    },
+    "notes": "68.5cm、胸围37.8cm的写实肌肉叔体,同线还有70.5cm的Model标准型。"
+  },
+  {
+    "id": "islanddoll-norse-73-body",
+    "brand": "Island Doll",
+    "brand_cn": "岛社",
+    "country": "CN",
+    "name": "Norse Myth 73cm Boy Body",
+    "name_cn": "北欧神话 73cm 男素体(叔体)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 73.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "http://www.acbjd.com/norse-myth-73cm-boy-body-p-7268.html"
+    },
+    "notes": "岛社北欧神话线(Loki/Thor/Odin同款)73cm双关节叔体,环保树脂多肤色可选。"
+  },
+  {
+    "id": "loongsoul-b-b73-02-uncle",
+    "brand": "LoongSoul",
+    "brand_cn": "龙魂人形社",
+    "country": "CN",
+    "name": "73.5cm Boy Body B-B73-02",
+    "name_cn": "73.5cm 男素体二代(叔体)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 73.5,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/loong-soul-735cm-boy-body-bb7302-p-8443.html"
+    },
+    "notes": "龙魂73.5cm叔体第二版,大骨架成熟男体,另有B-B73-01/03等版本可选。"
+  },
+  {
+    "id": "loongsoul-b-b68-01",
+    "brand": "LoongSoul",
+    "brand_cn": "龙魂人形社",
+    "country": "CN",
+    "name": "68cm Boy Body B-B68-01",
+    "name_cn": "68cm 男素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 68.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LegendDoll",
+      "url": "https://legenddoll.net/goods-6180.html"
+    },
+    "notes": "龙魂68cm男素体,介于三分与73叔体之间的68cm级青年男体。"
+  },
+  {
+    "id": "popodoll-68cm-boy-body",
+    "brand": "Popodoll",
+    "brand_cn": "POPO",
+    "country": "CN",
+    "name": "Popodoll 68cm Boy Body",
+    "name_cn": "POPO 68cm 男素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 68.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/popo-68cm-boy-body-p-7897.html"
+    },
+    "notes": "POPO家经典68cm叔体,可单买素体,提供普肌/白肌两色,2009年创立的老牌国产社热门男体。"
+  },
+  {
+    "id": "ringdoll-rgmbody-2",
+    "brand": "Ringdoll",
+    "brand_cn": "环球娃娃",
+    "country": "CN",
+    "name": "RGMbody-2 Grown Body 72cm",
+    "name_cn": "RGM 成年男体2号(72cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 72.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Ringdoll官网",
+      "url": "https://www.ringdoll.com/products/rgmbody-2"
+    },
+    "notes": "环球娃娃Ring Grown成年男体二代,肩宽15cm、胸围30cm、腰围22.5cm,写实成熟风。"
+  },
+  {
+    "id": "soom-idealian-75",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "Idealian 75 (ID75) Male Body",
+    "name_cn": "Idealian 75 大男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "叔叔体",
+    "height_cm": 75.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Anubis Doll Café",
+      "url": "https://anubisdolls.com/products/soom-idealian-75-body-instock"
+    },
+    "notes": "Soom 2020 年起的75cm叔叔体,颈围13cm,体格高大健硕的写实男体。"
+  },
+  {
+    "id": "soom-idealian-72",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "Idealian 72 (ID72) Male Body",
+    "name_cn": "Idealian 72 大男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "叔叔体",
+    "height_cm": 72.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Soom_Idealian"
+    },
+    "notes": "Idealian 系列72cm版本叔叔体,连头约72cm,可与 Iplehouse EID 等大男体互穿衣物。"
+  },
+  {
+    "id": "telesthesia-td-72cm-boy-body-ver1",
+    "brand": "Telesthesia Doll",
+    "brand_cn": "遥忆人形",
+    "country": "CN",
+    "name": "TD 72cm Boy Body Ver.I",
+    "name_cn": "遥忆 72cm 男素体 I型",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "70cm级",
+    "size_class": "叔叔体",
+    "height_cm": 72.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/td-72cm-boy-body-veri-p-8525.html?cPath=525_526"
+    },
+    "notes": "遥忆人形72cm男素体I型,东方古风叔体,为雪无痕、尉修等72cm男娃通用身体,可单购。"
+  },
+  {
+    "id": "as-13-male-body-62",
+    "brand": "Angell Studio",
+    "brand_cn": "天使工房",
+    "country": "CN",
+    "name": "AS 1/3 Male Body (Youth 58-62cm line)",
+    "name_cn": "1/3 男性素体(青年线,约62cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Angell Studio官网",
+      "url": "https://www.angell-studio.com/1-3-male-body_p0384.html"
+    },
+    "notes": "天使工房官网青年线(58-62cm)在售的1/3男性素体,老牌AS三分男体。"
+  },
+  {
+    "id": "as-62-female-body",
+    "brand": "Angell Studio",
+    "brand_cn": "天使工房",
+    "country": "CN",
+    "name": "AS 62cm Female Body",
+    "name_cn": "62cm 女性素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LegendDoll",
+      "url": "https://www.legenddoll.net/brand-125-c1080.html"
+    },
+    "notes": "天使工房62cm女性素体,官方另售可替换的高跟腿/高跟脚件。"
+  },
+  {
+    "id": "dikadoll-57cm-girl-body",
+    "brand": "DikaDoll",
+    "brand_cn": "迪卡",
+    "country": "CN",
+    "name": "DikaDoll 1/3 57cm Girl Body",
+    "name_cn": "迪卡 三分 57cm 女素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 57.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "DikaDoll官网",
+      "url": "http://www.dkdoll.com/productsen.asp?indid=15"
+    },
+    "notes": "迪卡57cm女娃线(如Genevieve、Jean)配套的三分女素体,官网Body分类可单购。"
+  },
+  {
+    "id": "dollmore-model-doll-f",
+    "brand": "Dollmore",
+    "brand_cn": "Dollmore",
+    "country": "KR",
+    "name": "Model Doll F Body",
+    "name_cn": "Model Doll F 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 67.0,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "纤细",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Dollmore官网",
+      "url": "https://www.dollmore.net/Mobile/Product/Category/list/cid/255"
+    },
+    "notes": "67cm模特比例长腿女体,Model Doll线整体在67-71cm之间。"
+  },
+  {
+    "id": "dreamvalley-b56-01",
+    "brand": "Dream Valley",
+    "brand_cn": "幻境",
+    "country": "CN",
+    "name": "56cm Female Body B56-01",
+    "name_cn": "56cm 女素体 B56-01",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 56.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LegendDoll",
+      "url": "https://www.legenddoll.net/goods-19254.html"
+    },
+    "notes": "幻境56cm三分女素体B56-01,品牌主打的1/3少女体。"
+  },
+  {
+    "id": "fairyland-feeple65-girl",
+    "brand": "Fairyland",
+    "brand_cn": "妖精乡",
+    "country": "KR",
+    "name": "Feeple65 Girl Body",
+    "name_cn": "Feeple65 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.5,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "纤细"
+    ],
+    "bust_options": [
+      "Large bust"
+    ],
+    "views": [],
+    "source": {
+      "site": "Den of Angels Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=FeePle65"
+    },
+    "notes": "F65女体实高62.5cm,胸下带关节、大胸单一规格,是妖精乡大女娃线。"
+  },
+  {
+    "id": "fairyland-fairyline-mermaid",
+    "brand": "Fairyland",
+    "brand_cn": "妖精乡",
+    "country": "KR",
+    "name": "FairyLine Mermaid Body",
+    "name_cn": "FairyLine 人鱼体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 60.0,
+    "gender": "neutral",
+    "styles": [
+      "特殊体",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "CP/FairyLand 官网",
+      "url": "https://cpfairyland.com/product/fairyline-mermaid-body/"
+    },
+    "notes": "FairyLine 60 线的人鱼素体,海马式多关节鱼尾配鳍臂蹼手,男女头皆可用,有多色半透明树脂。"
+  },
+  {
+    "id": "gem-of-doll-63cm-body",
+    "brand": "GEM of Doll",
+    "brand_cn": "光年",
+    "country": "CN",
+    "name": "GEM of Doll 1/3 63cm Body",
+    "name_cn": "光年 三分 63cm 素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 63.0,
+    "gender": "neutral",
+    "styles": [
+      "青年"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/gem-of-doll-event-doll-body-c-596_597.html"
+    },
+    "notes": "光年三分体约63cm(如蝙蝠暗夜精灵63cm全套所用),树脂材质,常配天使/精灵系奇幻头雕。"
+  },
+  {
+    "id": "granado-lads",
+    "brand": "Granado",
+    "brand_cn": "Granado",
+    "country": "CN",
+    "name": "Lads Male Body (Lads & Plus)",
+    "name_cn": "Lads 男体(含 Plus 加高版)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 66.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Granado 官网",
+      "url": "https://www.doll-granado.com/product-page/male-body-lads-plus"
+    },
+    "notes": "Granado 写实向66cm成年男体,另有 Lads Plus 68cm加高版,肌肉线条精细。"
+  },
+  {
+    "id": "granado-nuovo",
+    "brand": "Granado",
+    "brand_cn": "Granado",
+    "country": "CN",
+    "name": "Nuovo Male Body",
+    "name_cn": "Nuovo 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 64.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "WorthPoint",
+      "url": "https://www.worthpoint.com/worthopedia/doll-granado-nuevo-64cm-male-body-858944371"
+    },
+    "notes": "Granado 2011 年创社早期的64cm三分男体,男体专门社的青年身形起点作。"
+  },
+  {
+    "id": "impldoll-star-sgb-65",
+    "brand": "Impldoll",
+    "brand_cn": "Impldoll",
+    "country": "CN",
+    "name": "Star 65cm Boy Body SGB",
+    "name_cn": "Star 65cm 男素体 SGB",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "肌肉"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LegendDoll",
+      "url": "http://legenddoll.net/goods-22068.html"
+    },
+    "notes": "Impldoll Star线65cm男素体SGB,双关节带上臂活动关节,健壮青年体。"
+  },
+  {
+    "id": "impldoll-model-girl-63",
+    "brand": "Impldoll",
+    "brand_cn": "Impldoll",
+    "country": "CN",
+    "name": "Impl 63cm Model Girl Body",
+    "name_cn": "63cm 模特女素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 63.0,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/impl-63cm-model-girl-body-p-18139.html"
+    },
+    "notes": "Impldoll 63cm模特女素体,超模比例的高挑三分女体。"
+  },
+  {
+    "id": "impldoll-62cm-girl-body",
+    "brand": "Impldoll",
+    "brand_cn": "Impldoll",
+    "country": "CN",
+    "name": "Impl 62cm Girl Body",
+    "name_cn": "Impl 62cm 女素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.0,
+    "gender": "female",
+    "styles": [
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/impl-62cm-girl-body-p-19506.html"
+    },
+    "notes": "国产Impldoll 62cm写实系三分女素体,另有63cm Model模特体可选,可单买。"
+  },
+  {
+    "id": "iplehouse-sid-woman",
+    "brand": "Iplehouse",
+    "brand_cn": "Iplehouse",
+    "country": "KR",
+    "name": "SID Woman Body",
+    "name_cn": "SID 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.0,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "丰满",
+      "写实"
+    ],
+    "bust_options": [
+      "Small bust",
+      "Large bust",
+      "Glamour bust"
+    ],
+    "views": [],
+    "source": {
+      "site": "BJD Fandom Wiki",
+      "url": "https://bjd.fandom.com/wiki/Iplehouse_SID"
+    },
+    "notes": "62cm写实成熟女体,可选Small/Large/Glamour三档胸围与腿型。"
+  },
+  {
+    "id": "islanddoll-idf-65-body1",
+    "brand": "Island Doll",
+    "brand_cn": "岛社",
+    "country": "CN",
+    "name": "IDF 65cm Boy Body 1",
+    "name_cn": "IDF 65cm 男素体一号",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.0,
+    "gender": "male",
+    "styles": [
+      "青年"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "http://www.acbjd.com/idf-65cm-boy-body1-p-7203.html?cPath=1_0_415_416"
+    },
+    "notes": "岛社IDF线65cm男素体一号,三分大男体。"
+  },
+  {
+    "id": "littlemonica-harmony-girl",
+    "brand": "Little Monica",
+    "brand_cn": "小莫妮卡",
+    "country": "KR",
+    "name": "Harmony Girl Body (New Type)",
+    "name_cn": "Harmony 女体(新型)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 57.7,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [
+      "Small bust",
+      "Large bust"
+    ],
+    "views": [],
+    "source": {
+      "site": "Den of Angels Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Little_Monica_Harmony"
+    },
+    "notes": "约57.7cm的1/3少女体,新型含活动关节、高跟腿及大小胸可选。"
+  },
+  {
+    "id": "loongsoul-b-g58-02",
+    "brand": "LoongSoul",
+    "brand_cn": "龙魂人形社",
+    "country": "CN",
+    "name": "58cm Girl Body B-G58-02",
+    "name_cn": "58cm 女素体二代",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 58.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LoongSoul官网",
+      "url": "http://ls-doll.com/en/goods.php?id=504"
+    },
+    "notes": "龙魂官网在售的58cm三分女素体第二版。"
+  },
+  {
+    "id": "luts-senior65-delf-girl",
+    "brand": "Luts",
+    "brand_cn": "Luts",
+    "country": "KR",
+    "name": "Senior65 Delf Girl Body",
+    "name_cn": "Senior65 Delf 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.1,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Luts官网",
+      "url": "https://eluts.com/product/senior65-delf-girl-body/20514/"
+    },
+    "notes": "65.1cm高挑成熟女体,胸围28.2cm、腰21cm,是LUTS大女娃线。"
+  },
+  {
+    "id": "luts-senior-delf-boy",
+    "brand": "Luts",
+    "brand_cn": "Luts",
+    "country": "KR",
+    "name": "Senior Delf Boy Body Type 1",
+    "name_cn": "Senior Delf 男体 Type 1",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.5,
+    "gender": "male",
+    "styles": [
+      "青年"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Luts官网",
+      "url": "https://eluts.com/product/senior-delf-body-boy-type-1/3916/"
+    },
+    "notes": "LUTS三分男体主力线,约62.5cm青年比例,有多种Type体型可选。"
+  },
+  {
+    "id": "maskcat-58-female-body",
+    "brand": "Maskcat",
+    "brand_cn": "面具猫",
+    "country": "CN",
+    "name": "Maskcat 58cm Female Body",
+    "name_cn": "58cm 女性素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 58.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Denver Doll",
+      "url": "https://www.denverdoll.com/product/58cm-female-body/"
+    },
+    "notes": "面具猫58cm三分女素体,搭配官方头含头约62cm,胸围27cm、腰围20.6cm、臀围30cm。"
+  },
+  {
+    "id": "migidoll-guy-body-2",
+    "brand": "Migidoll",
+    "brand_cn": "Migidoll",
+    "country": "KR",
+    "name": "Guy Body II (Style65)",
+    "name_cn": "Guy Body II 男体(Style65)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "肌肉"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Korea Dolls代理店",
+      "url": "https://koreadolls.com/product/migidoll65cm-guy-body/1390/"
+    },
+    "notes": "Migidoll自社65cm男体二代,加强肌肉线条与可动性,2022年已停产。"
+  },
+  {
+    "id": "mozu-doll-60cm-series",
+    "brand": "MOZU DOLL",
+    "brand_cn": "魔族人形",
+    "country": "CN",
+    "name": "MOZU DOLL 60cm Series Anime Doll",
+    "name_cn": "魔族 60cm 动漫软胶娃娃",
+    "type": "MJD",
+    "material": "PVC胶皮",
+    "scale": null,
+    "size_class": "三分",
+    "height_cm": 60.0,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "丰满"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "MOZU DOLL日本官网",
+      "url": "https://www.mozudoll.jp/cateList-49230.html"
+    },
+    "notes": "魔族60cm动漫系列迷你娃,软胶胶皮(官方新款标称硅胶/MTPE)包裹不锈钢内骨架、全身可动,每款独立设计妆容,兼具摆件与把玩。"
+  },
+  {
+    "id": "myou-13-girl-58",
+    "brand": "MYOU Doll",
+    "brand_cn": "MYOU",
+    "country": "CN",
+    "name": "MYOU 1/3 Girl Body 58cm",
+    "name_cn": "1/3 少女素体(58cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 58.0,
+    "gender": "female",
+    "styles": [
+      "少女"
+    ],
+    "bust_options": [
+      "S",
+      "M",
+      "L"
+    ],
+    "views": [],
+    "source": {
+      "site": "MYOU官网",
+      "url": "https://www.myou-doll.com/product/product92.html"
+    },
+    "notes": "MYOU官网58cm三分少女体,S/M/L三种胸围、两段式/三段式躯干与多种肤色可选。"
+  },
+  {
+    "id": "popodoll-60cm-girl-body",
+    "brand": "Popodoll",
+    "brand_cn": "POPO",
+    "country": "CN",
+    "name": "Popodoll 60cm Girl Body",
+    "name_cn": "POPO 60cm 女素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 60.0,
+    "gender": "female",
+    "styles": [
+      "少女"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/popo-doll-c-469.html"
+    },
+    "notes": "POPO 60/63cm三分线女素体(如60cm女娃云朵Yun Duo所用),普肌/白肌可选。"
+  },
+  {
+    "id": "ringdoll-rtg60-4",
+    "brand": "Ringdoll",
+    "brand_cn": "环球娃娃",
+    "country": "CN",
+    "name": "RTG60-4 Teenager Girl Body 56cm",
+    "name_cn": "RTG 少女体(56cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 56.0,
+    "gender": "female",
+    "styles": [
+      "少女"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Ringdoll官网",
+      "url": "https://www.ringdoll.com/products/rtg60-4"
+    },
+    "notes": "环球娃娃Ring Teenager少年线56cm少女素体,适配环娃三分女头。"
+  },
+  {
+    "id": "smartdoll-guy",
+    "brand": "Smart Doll",
+    "brand_cn": "Smart Doll",
+    "country": "JP",
+    "name": "Smart Doll Guy Body",
+    "name_cn": "Smart Doll 男性素体",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.0,
+    "gender": "male",
+    "styles": [
+      "动漫",
+      "青年"
+    ],
+    "bust_options": [
+      "Slim",
+      "Macho"
+    ],
+    "views": [],
+    "source": {
+      "site": "Tumblr (Smart Doll Measurements)",
+      "url": "https://www.tumblr.com/medalis-blog/133614070565/smart-doll-measurements-ebonyivorykizunamirai"
+    },
+    "notes": "男性版Smart Doll,初代男体约62cm,新版稍降身高提升稳定性,默认Macho胸型并可换Slim胸臂件。"
+  },
+  {
+    "id": "smartdoll-girl",
+    "brand": "Smart Doll",
+    "brand_cn": "Smart Doll",
+    "country": "JP",
+    "name": "Smart Doll Girl Body (60cm)",
+    "name_cn": "Smart Doll 女性素体",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 60.0,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Smart Doll Store",
+      "url": "https://shop.smartdoll.jp/products/what-is-smart-doll"
+    },
+    "notes": "Danny Choo打造的60cm东京手工软胶素体,内骨架可动,以大长腿轮廓与多肤色著称。"
+  },
+  {
+    "id": "soom-super-gem-male",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "Super Gem Male Body",
+    "name_cn": "Super Gem 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "肌肉"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "SOOM The Gem 官网",
+      "url": "https://gem.dollsoom.com/en/product-category/le-dolls-en/le-super-gem-en/sgm-en/"
+    },
+    "notes": "Soom 招牌三分男体,全高约65cm、胸围28cm,是众多月娃限定的通用素体。"
+  },
+  {
+    "id": "soom-super-gem-fantasy-heliot",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "Super Gem Fantasy Body (Heliot)",
+    "name_cn": "Super Gem 幻想体(Heliot 独角兽)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.0,
+    "gender": "male",
+    "styles": [
+      "特殊体",
+      "成熟"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Soom_Super_Gem_Heliot"
+    },
+    "notes": "Super Gem 月娃幻想版之一,以独角兽为灵感,配角、兽耳与蹄腿等幻想部件,幻想蹄腿比人腿更长。"
+  },
+  {
+    "id": "soom-super-gem-female",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "Super Gem Female Body",
+    "name_cn": "Super Gem 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.5,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Dolls Art Cats Blog",
+      "url": "https://dollsartcats.blogspot.com/2015/01/some-measurements-for-new-super-gem.html"
+    },
+    "notes": "Super Gem 三分女体约62.5cm,后期推出可动性改良的 Mobility 新版女体。"
+  },
+  {
+    "id": "souldoll-zenith-girl",
+    "brand": "Souldoll",
+    "brand_cn": "Souldoll",
+    "country": "KR",
+    "name": "S.Zenith Girl Body",
+    "name_cn": "S.Zenith 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 64.0,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Souldoll官网",
+      "url": "https://m.souldoll.com/product/szenith-girl-body/1084/category/1/display/2/"
+    },
+    "notes": "Zenith线约64cm成熟女体,另有65cm级Zenith男体与双关节新体。"
+  },
+  {
+    "id": "supia-girls60-body",
+    "brand": "Supia",
+    "brand_cn": "Supia",
+    "country": "KR",
+    "name": "Supia for Girls 60 Double Jointed Body",
+    "name_cn": "Supia 60级双关节女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 60.0,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Supia官网",
+      "url": "https://supiadollz.net/shop/step1.php?number=53"
+    },
+    "notes": "Supia 60cm级双关节女体,Rosy等人气女头默认搭配,另有65cm双关节体。"
+  },
+  {
+    "id": "switch-hd65boy-attractive",
+    "brand": "Switch",
+    "brand_cn": "Switch",
+    "country": "KR",
+    "name": "HD 65boy Attractive Body",
+    "name_cn": "HD 65boy Attractive 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Switch官网",
+      "url": "https://from-switch.com/product/hd-65boy-attractive-body/58/"
+    },
+    "notes": "含头65cm的青年男体,胸围26.5cm、肩宽15.1cm,Switch美少年头专配。"
+  },
+  {
+    "id": "volks-sd16-boy",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "SD16 Boy Body",
+    "name_cn": "SD16 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "青年"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_16"
+    },
+    "notes": "以约16岁少年为原型的高大成熟男体,是Volks可动性最强的素体之一。"
+  },
+  {
+    "id": "volks-sd17-boy",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "SD17 Boy Body",
+    "name_cn": "SD17 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 65.0,
+    "gender": "male",
+    "styles": [
+      "成熟",
+      "青年"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_17"
+    },
+    "notes": "约65-65.5cm的高挑成熟男体,多用于高端限定与人气角色娃。"
+  },
+  {
+    "id": "volks-sd16-girl",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "SD16 Girl Body",
+    "name_cn": "SD16 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.3,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "丰满"
+    ],
+    "bust_options": [
+      "SS",
+      "S",
+      "M",
+      "L"
+    ],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_16"
+    },
+    "notes": "身形成熟的大女孩体,胸围SS/S/M/L四档可换。"
+  },
+  {
+    "id": "volks-sdgr-boy",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "SDGr Boy Body (Super Dollfie Graffiti)",
+    "name_cn": "SDGr 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 62.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_Graffiti"
+    },
+    "notes": "SD13男体的换代新设计,双关节结构大幅提升可动与摆姿能力。"
+  },
+  {
+    "id": "volks-sd13-boy",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "SD13 Boy Body",
+    "name_cn": "SD13 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 60.0,
+    "gender": "male",
+    "styles": [
+      "少年",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_13"
+    },
+    "notes": "Volks经典三分男体,2016年全面停产,由可动性更好的SDGr男体接替。"
+  },
+  {
+    "id": "volks-dd",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "DD Base Body (Dollfie Dream DDIII / DD-f3)",
+    "name_cn": "DD 基础素体",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 60.0,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "少女"
+    ],
+    "bust_options": [
+      "S",
+      "M",
+      "L"
+    ],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Dollfie_Dream"
+    },
+    "notes": "60cm级动漫风软胶素体,内置可动骨架,胸围S/M/L可选,现已换装新一代DD-f3内框。"
+  },
+  {
+    "id": "volks-dddy",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "DDdy Base Body (Dollfie Dream Dynamite)",
+    "name_cn": "DDdy 素体(Dynamite)",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 58.0,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "丰满",
+      "成熟"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "VOLKS USA",
+      "url": "https://volksusa.store/products/dddy-base-body"
+    },
+    "notes": "胸臀更丰满的'火辣'体型,全高约57-58cm,适合成熟系角色。"
+  },
+  {
+    "id": "volks-sd13-girl",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "SD13 Girl Body",
+    "name_cn": "SD13 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 57.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_13"
+    },
+    "notes": "以约13岁少女为原型的经典三分女体,长期作为Volks限定娃的标准素体。"
+  },
+  {
+    "id": "volks-sdgr-girl",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "SDGr Girl Body (Super Dollfie Graffiti)",
+    "name_cn": "SDGr 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/3",
+    "size_class": "三分",
+    "height_cm": 57.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "成熟"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_Graffiti"
+    },
+    "notes": "承袭SD16女体关节工艺的升级女体,可换高跟腿件后全高约59-60cm。"
+  },
+  {
+    "id": "dollchateau-k-body-11",
+    "brand": "Doll Chateau",
+    "brand_cn": "娃堡",
+    "country": "CN",
+    "name": "K-body-11 Girl Body 50.5cm",
+    "name_cn": "K体-11 少女素体(50.5cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "大四分",
+    "height_cm": 50.5,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "http://www.acbjd.com/kbody11-505cm-p-7080.html"
+    },
+    "notes": "娃堡K线少女体,50.5cm大四分尺寸,纤细童话风格。"
+  },
+  {
+    "id": "obitsu-50",
+    "brand": "Obitsu",
+    "brand_cn": "奥比茨",
+    "country": "JP",
+    "name": "Obitsu Body 50",
+    "name_cn": "奥比茨50 素体",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)+ABS",
+    "scale": "1/3",
+    "size_class": "大四分",
+    "height_cm": 50.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "动漫"
+    ],
+    "bust_options": [
+      "M",
+      "L"
+    ],
+    "views": [],
+    "source": {
+      "site": "HobbySearch (1999.co.jp)",
+      "url": "https://www.1999.co.jp/eng/11251774"
+    },
+    "notes": "约50cm的1/3通用软胶女体,塑料骨架+软胶外皮,也是Vmf50/Parabox 45cm等50cm级素体的技术基础。"
+  },
+  {
+    "id": "volks-dds",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "DDS Base Body (Dollfie Dream Sister)",
+    "name_cn": "DDS 妹妹体",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)",
+    "scale": "1/3",
+    "size_class": "大四分",
+    "height_cm": 54.5,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [
+      "S",
+      "M",
+      "L"
+    ],
+    "views": [],
+    "source": {
+      "site": "VOLKS USA",
+      "url": "https://volksusa.store/products/dds-base-body"
+    },
+    "notes": "官方定位为DD的娇小'妹妹体',整体比DD纤细,实测全高约54.5cm。"
+  },
+  {
+    "id": "volks-ddp",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "DDP Base Body (Dollfie Dream Pretty)",
+    "name_cn": "DDP 素体(Pretty)",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)",
+    "scale": "1/3",
+    "size_class": "大四分",
+    "height_cm": 51.0,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Requiem Art Designs",
+      "url": "https://raddollclothes.com/blogs/news/dollfie-dream-pretty-the-new-teen-1-3-size"
+    },
+    "notes": "介于MDD与DDS之间的'Teen 1/3'少女体,全高约51cm,比例贴近少女/小学高年级偶像角色。"
+  },
+  {
+    "id": "angelphilia-vmf50",
+    "brand": "Yamato / Arcadia",
+    "brand_cn": "大和/阿卡迪亚",
+    "country": "JP",
+    "name": "Vmf50 / Angel Philia Body",
+    "name_cn": "Vmf50 安琪菲利亚 50cm 软胶女体",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)",
+    "scale": "1/3",
+    "size_class": "大四分",
+    "height_cm": 50.0,
+    "gender": "female",
+    "styles": [
+      "成熟",
+      "丰满",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "HobbyLink Japan",
+      "url": "https://www.hlj.com/1-3-scale-vmf50-head-body-type-e-brown-neutral-50cm-ymt34907"
+    },
+    "notes": "源自Obitsu 50cm体系的高可动软胶女体,内骨架+肌肉感外皮,Yamato更名Arcadia后以Angel Philia线延续,提供A-E等多种体型。"
+  },
+  {
+    "id": "aimerai-codenoir-mfb-04-quarter-body",
+    "brand": "Aimerai x CODENOiR",
+    "brand_cn": "Aimerai",
+    "country": "CN",
+    "name": "Aimerai 1/4 MFB-04 Body",
+    "name_cn": "Aimerai 四分 MFB-04 女素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 42.0,
+    "gender": "female",
+    "styles": [
+      "少女"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "BJD Collectasy",
+      "url": "https://bjdcollectasy.com/2025/07/10/code-noir-aimerai-crossover-project-dolls/"
+    },
+    "notes": "Aimerai(中国香港)与CODENOiR 2025联名企划Lia/Mia所用1/4 MFB-04女素体,42cm,另有30cm 1/6 TNB02可选,限时发售。"
+  },
+  {
+    "id": "charmdoll-cdb-g42-04-girl-body",
+    "brand": "Charm Doll",
+    "brand_cn": "Charm Doll",
+    "country": "CN",
+    "name": "CharmDoll 1/4 Girl Body CDB-G42-04",
+    "name_cn": "CD 四分女素体 G42",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 42.0,
+    "gender": "female",
+    "styles": [
+      "少女"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Edelweiss Day",
+      "url": "https://edelweissday.com/products/bjd-doll-charmdoll-1-4-girl-body-cdb-g42-04"
+    },
+    "notes": "Charm Doll四分女素体CDB-G42-04,全高42cm,与龙魂共线生产、品质相同。"
+  },
+  {
+    "id": "charmdoll-b93-quarter-boy-body",
+    "brand": "Charm Doll",
+    "brand_cn": "Charm Doll",
+    "country": "CN",
+    "name": "CharmDoll 1/4 Boy Body B93",
+    "name_cn": "CD 四分男素体 B93",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 38.0,
+    "gender": "male",
+    "styles": [
+      "少年",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "eBay",
+      "url": "https://www.ebay.com/itm/335715457553"
+    },
+    "notes": "龙魂文化旗下Charm Doll四分男素体B93,全高38cm、臂长13cm、肩宽9cm、颈围7.2cm。"
+  },
+  {
+    "id": "dollzone-b45-016",
+    "brand": "DollZone",
+    "brand_cn": "娃之领域",
+    "country": "CN",
+    "name": "45cm 1/4 Girl Body B45-016",
+    "name_cn": "45cm 1/4 女素体 B45-016",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 45.0,
+    "gender": "female",
+    "styles": [
+      "少女"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Dollection",
+      "url": "https://www.mydollection.com/product-page/dollzone-45cm-1-4-girl-body-b45-016"
+    },
+    "notes": "娃之领域1/4女素体,含头全高45cm,胸围17cm、腰围13cm、臀围20cm。"
+  },
+  {
+    "id": "dreamvalley-b4-19",
+    "brand": "Dream Valley",
+    "brand_cn": "幻境",
+    "country": "CN",
+    "name": "45cm Girl Body B4-19",
+    "name_cn": "45cm 女素体 B4-19",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 45.0,
+    "gender": "female",
+    "styles": [
+      "少女"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "LegendDoll",
+      "url": "https://www.legenddoll.net/goods-32776.html"
+    },
+    "notes": "幻境1/4女素体B4-19,全高45cm,B4系列四分体之一。"
+  },
+  {
+    "id": "fairyland-minifee-boy-active",
+    "brand": "Fairyland",
+    "brand_cn": "妖精乡",
+    "country": "KR",
+    "name": "Minifee Boy Body (Active Line)",
+    "name_cn": "Minifee 男体(Active线)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 42.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Fairyland官网(CP/FairyLand)",
+      "url": "https://cpfairyland.com/product/minifee-boy-body-active-line/"
+    },
+    "notes": "A线四分男体,双重膝肘关节加磁吸手,可选model/muscle两种胸型。"
+  },
+  {
+    "id": "fairyland-minifee-girl-moe",
+    "brand": "Fairyland",
+    "brand_cn": "妖精乡",
+    "country": "KR",
+    "name": "Minifee Girl Body (Moe Line)",
+    "name_cn": "Minifee 女体(Moe线)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 40.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [
+      "Full bust",
+      "Glamour bust"
+    ],
+    "views": [],
+    "source": {
+      "site": "Fairyland官网(CP/FairyLand)",
+      "url": "https://cpfairyland.com/product/minifee-girl-body-moe-line/"
+    },
+    "notes": "38-42cm级人气四分女体,Moe线无独立胯关节、可换Full/Glamour两种胸围。"
+  },
+  {
+    "id": "iplehouse-jid-girl",
+    "brand": "Iplehouse",
+    "brand_cn": "Iplehouse",
+    "country": "KR",
+    "name": "JID Girl Body (Doll Choice)",
+    "name_cn": "JID 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 43.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "写实"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Iplehouse官网",
+      "url": "https://iplehouse.com/home/shop/item.php?it_id=1577735127&nhn1=en"
+    },
+    "notes": "43cm写实系少女四分体,同线JID男体为46cm,官网Doll Choice可定制。"
+  },
+  {
+    "id": "luts-model-delf-boy",
+    "brand": "Luts",
+    "brand_cn": "Luts",
+    "country": "KR",
+    "name": "Model Delf Boy Body New Type3 Slender",
+    "name_cn": "Model Delf 男体新型3纤细版",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 45.0,
+    "gender": "male",
+    "styles": [
+      "青年",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Luts官网",
+      "url": "https://m.eluts.com/product/model-delf-boy-body-new-type3-slender/7280/"
+    },
+    "notes": "45cm成熟系四分(mature mini)模特比例男体,2014年推出的纤细线条。"
+  },
+  {
+    "id": "luts-kid-delf-boy",
+    "brand": "Luts",
+    "brand_cn": "Luts",
+    "country": "KR",
+    "name": "Kid Delf Boy Body Type",
+    "name_cn": "Kid Delf 男体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 43.5,
+    "gender": "male",
+    "styles": [
+      "少年"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Luts官网",
+      "url": "https://eluts.com/product/kid-delf-body-boy-type/3960/"
+    },
+    "notes": "42-45cm级少年感四分素体,官网另有多种Type与Kid45加高版。"
+  },
+  {
+    "id": "myou-14-girl-ver2-44",
+    "brand": "MYOU Doll",
+    "brand_cn": "MYOU",
+    "country": "CN",
+    "name": "MYOU 1/4 Girl Body Ver.II (44cm)",
+    "name_cn": "1/4 少女素体二代(44cm)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 44.0,
+    "gender": "female",
+    "styles": [
+      "少女"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Alice's Collections",
+      "url": "https://www.acbjd.com/myou-14-girl-body-verii-44cm-p-11133.html"
+    },
+    "notes": "MYOU 1/4少女素体第二版,全高44cm,品牌另有45cm四分少年体。"
+  },
+  {
+    "id": "popovy-sisters-doll",
+    "brand": "Popovy Sisters",
+    "brand_cn": "波波维姐妹",
+    "country": "RU",
+    "name": "Popovy Sisters Ball-Jointed Fashion Doll",
+    "name_cn": "Popovy Sisters 艺术时装人形",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 40.0,
+    "gender": "female",
+    "styles": [
+      "纤细",
+      "特殊体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Ball-Jointed Doll Wiki (Fandom)",
+      "url": "https://bjd.fandom.com/wiki/Popovy_Sisters"
+    },
+    "notes": "俄罗斯双人组艺术人形,约40cm聚氨酯树脂体,以时装画式的极端拉长骨感轮廓著称,关节内衬硅胶、定型极稳。"
+  },
+  {
+    "id": "soom-imda-4-3",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "iMda 4.3 Body",
+    "name_cn": "iMda 4.3 幼体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 43.0,
+    "gender": "neutral",
+    "styles": [
+      "幼体",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "iMda Doll 官方商店",
+      "url": "https://en.imdadoll.shop/category/imda-43/45/"
+    },
+    "notes": "Soom 艺术子品牌 iMda 的43cm四分线,代表娃如 Manon、Valérie,少年感艺术幼体。"
+  },
+  {
+    "id": "ufdoll-quarter-female-body",
+    "brand": "UFdoll",
+    "brand_cn": "UFdoll",
+    "country": "CN",
+    "name": "UFdoll 1/4 Female Body",
+    "name_cn": "UF 四分女素体",
+    "type": "MJD",
+    "material": "PVC",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": null,
+    "gender": "female",
+    "styles": [
+      "动漫"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "eBay",
+      "url": "https://www.ebay.com/itm/327106629592"
+    },
+    "notes": "UF家四分PVC+ABS机械关节女素体,走平价MJD路线,黑茶/巧克力肌等多肤色,风格从动漫到写实均有。"
+  },
+  {
+    "id": "volks-mdd",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "MDD Base Body (Mini Dollfie Dream)",
+    "name_cn": "MDD 迷你DD素体",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 43.5,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "VOLKS USA",
+      "url": "https://volksusa.store/products/mdd-base-body"
+    },
+    "notes": "约43.5cm的迷你DD,2023年率先搭载新一代DD-f3内骨架,另有约43cm的Mochi-Ashi圆润短腿版。"
+  },
+  {
+    "id": "volks-msd",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "MSD Body (Mini Super Dollfie)",
+    "name_cn": "MSD 迷你SD素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "四分",
+    "height_cm": 43.0,
+    "gender": "neutral",
+    "styles": [
+      "幼体",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Mini_Super_Dollfie"
+    },
+    "notes": "约42-43cm的四分儿童体,男女款皆有,标准款现已停产、由SD Midi接替。"
+  },
+  {
+    "id": "dollchateau-k-body-09-spider",
+    "brand": "Doll Chateau",
+    "brand_cn": "娃堡",
+    "country": "CN",
+    "name": "K-body-09 Elizabeth Spider Body",
+    "name_cn": "K体-09 伊丽莎白蜘蛛特殊体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "33cm级",
+    "size_class": "六分",
+    "height_cm": 33.0,
+    "gender": "female",
+    "styles": [
+      "特殊体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "BJDivas",
+      "url": "https://bjdivas.com/product/in-stock-doll-chateau-k-body-09-elizabeths-spider-body-white/?v=3a52f3c22ed6"
+    },
+    "notes": "娃堡代表性特殊体:人形上半身加蜘蛛下肢,全高约33cm,胸围13cm、腰围9cm。"
+  },
+  {
+    "id": "dust-of-dolls-cham",
+    "brand": "Dust of Dolls",
+    "brand_cn": "Dust of Dolls",
+    "country": "FR",
+    "name": "Cham Body",
+    "name_cn": "Cham 幼体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": null,
+    "size_class": "六分",
+    "height_cm": 34.0,
+    "gender": "neutral",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Ball-Jointed Doll Wiki (Fandom)",
+      "url": "https://bjd.fandom.com/wiki/Dust_of_Dolls_Cham"
+    },
+    "notes": "法国 Dust of Dolls 的34cm艺术幼体线,该社尺寸从11cm到60cm不等,部分线(如 Spün)已于2020年停产。"
+  },
+  {
+    "id": "fairyland-littlefee-boy",
+    "brand": "Fairyland",
+    "brand_cn": "妖精乡",
+    "country": "KR",
+    "name": "Littlefee Boy Body (a la carte)",
+    "name_cn": "Littlefee 男体(自选配置)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/6",
+    "size_class": "六分",
+    "height_cm": 25.0,
+    "gender": "male",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Fairyland官网(CP/FairyLand)",
+      "url": "https://cpfairyland.com/product/littlefee-a-la-carte-boy/"
+    },
+    "notes": "25cm六分幼体线,官网a la carte系统可自选头、肤色与手型。"
+  },
+  {
+    "id": "luts-honey-delf",
+    "brand": "Luts",
+    "brand_cn": "Luts",
+    "country": "KR",
+    "name": "Honey Delf Body Type 2",
+    "name_cn": "Honey Delf 素体 Type 2",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/6",
+    "size_class": "六分",
+    "height_cm": 26.0,
+    "gender": "neutral",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Luts官网",
+      "url": "https://eluts.com/product/honey-delf-body-type-2/4001/"
+    },
+    "notes": "26cm六分幼体线,配14mm眼,另有Type 3多功能体和限定人马体。"
+  },
+  {
+    "id": "meadowdolls-dumpling",
+    "brand": "Meadowdolls",
+    "brand_cn": "Meadowdolls",
+    "country": "SE",
+    "name": "Dumplings Body",
+    "name_cn": "Dumplings 团子幼体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": null,
+    "size_class": "六分",
+    "height_cm": 28.0,
+    "gender": "neutral",
+    "styles": [
+      "幼体",
+      "丰满"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Meadowdolls 官网",
+      "url": "https://www.meadowdolls.org/dumplings"
+    },
+    "notes": "瑞典独立工作室 Meadowdolls 的28cm圆润幼体线,因胖乎乎的体型得名 Dumplings(团子)。"
+  },
+  {
+    "id": "obitsu-24",
+    "brand": "Obitsu",
+    "brand_cn": "奥比茨",
+    "country": "JP",
+    "name": "Obitsu Body 24",
+    "name_cn": "奥比茨24 素体",
+    "type": "MJD",
+    "material": "软胶(Soft Vinyl)+ABS/POM",
+    "scale": "1/6",
+    "size_class": "六分",
+    "height_cm": 24.0,
+    "gender": "female",
+    "styles": [
+      "少女",
+      "纤细",
+      "动漫"
+    ],
+    "bust_options": [
+      "S",
+      "M",
+      "L"
+    ],
+    "views": [],
+    "source": {
+      "site": "HobbyLink Japan",
+      "url": "https://www.hlj.com/1-6-scale-24cm-obitsu-body-bust-s-new-model-natural-obt05328"
+    },
+    "notes": "软胶躯干+内骨架的1/6女素体,不含头约22cm、含头约24cm,胸围S/M/L可选,系列另有22/26cm姐妹款。"
+  },
+  {
+    "id": "rosenlied-tuesday-child-girl",
+    "brand": "Rosen Lied",
+    "brand_cn": "Rosen Lied",
+    "country": "KR",
+    "name": "Tuesday's Child Girl Body",
+    "name_cn": "Tuesday's Child 女体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/6",
+    "size_class": "六分",
+    "height_cm": 26.5,
+    "gender": "female",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Tuesday's_Child"
+    },
+    "notes": "26.5cm圆润幼体线,是Rosen Lied最具代表性的治愈系尺寸。"
+  },
+  {
+    "id": "soom-imda-3-0",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "iMda 3.0 Body",
+    "name_cn": "iMda 3.0 幼体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/6",
+    "size_class": "六分",
+    "height_cm": 30.5,
+    "gender": "neutral",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "iMda Doll 官网尺寸页",
+      "url": "http://imda.co.kr/english/imda_dresspattern/imdadoll_size.htm"
+    },
+    "notes": "iMda 六分幼体线,全高30.5cm、眼珠16-18mm,头大身圆的软萌儿童比例。"
+  },
+  {
+    "id": "soom-imda-2-6",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "iMda 2.6 Body",
+    "name_cn": "iMda 2.6 幼体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/6",
+    "size_class": "六分",
+    "height_cm": 26.0,
+    "gender": "neutral",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "iMda Doll 官方商店",
+      "url": "https://en.imdadoll.shop/product/26-simonne/440/"
+    },
+    "notes": "iMda 最小的26cm幼体线,代表娃 Simonne、Colette,眼珠14mm的迷你儿童体。"
+  },
+  {
+    "id": "volks-yosd",
+    "brand": "Volks",
+    "brand_cn": "沃克斯",
+    "country": "JP",
+    "name": "Yo-SD Body (Yo Super Dollfie)",
+    "name_cn": "幼SD 素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/6",
+    "size_class": "六分",
+    "height_cm": 26.5,
+    "gender": "neutral",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Yo_Super_Dollfie"
+    },
+    "notes": "Volks最小的幼儿比例树脂素体(约26.5cm),仅以限定形式发售,人气极高。"
+  },
+  {
+    "id": "azone-pure-neemo-flection",
+    "brand": "Azone International",
+    "brand_cn": "Azone",
+    "country": "JP",
+    "name": "Pure Neemo Flection Body",
+    "name_cn": "Pure Neemo Flection 素体",
+    "type": "MJD",
+    "material": "PVC/ABS",
+    "scale": "1/6",
+    "size_class": "八分",
+    "height_cm": 22.0,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "少女"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "HobbyLink Japan",
+      "url": "https://www.hlj.com/pure-neemo-flection-full-action-m-size-ll-bust-flesh-aznpfl013fls"
+    },
+    "notes": "Azone自研1/6可动素体,分XS/S/M/L四档身高(约18-23cm),女生M/L码另有不同胸围件,也有男生款。"
+  },
+  {
+    "id": "fairyland-pukifee",
+    "brand": "Fairyland",
+    "brand_cn": "妖精乡",
+    "country": "KR",
+    "name": "Pukifee Body",
+    "name_cn": "Pukifee 素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/8",
+    "size_class": "八分",
+    "height_cm": 15.5,
+    "gender": "neutral",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=pukiFee"
+    },
+    "notes": "15.5cm八分幼体,妖精乡最具人气的口袋尺寸线之一。"
+  },
+  {
+    "id": "lati-yellow-girl",
+    "brand": "Lati",
+    "brand_cn": "Lati",
+    "country": "KR",
+    "name": "Lati Yellow Body",
+    "name_cn": "Lati Yellow 素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/8",
+    "size_class": "八分",
+    "height_cm": 16.0,
+    "gender": "female",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Latidoll_Yellow_Line"
+    },
+    "notes": "16cm人气八分幼体(SP特殊体约20cm),同厂White线为10-12cm微型。"
+  },
+  {
+    "id": "luts-tiny-delf",
+    "brand": "Luts",
+    "brand_cn": "Luts",
+    "country": "KR",
+    "name": "Tiny Delf New Body",
+    "name_cn": "Tiny Delf 新素体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/8",
+    "size_class": "八分",
+    "height_cm": 16.0,
+    "gender": "neutral",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Luts官网",
+      "url": "https://m.eluts.com/product/tiny-delf-new-body/5763/"
+    },
+    "notes": "含头全高约16cm的掌上八分幼体,LUTS最小的Delf线之一。"
+  },
+  {
+    "id": "secretdoll-smile-tiny",
+    "brand": "Secretdoll",
+    "brand_cn": "Secretdoll",
+    "country": "KR",
+    "name": "Smile Series Tiny Body (Ming/Meng/Mong)",
+    "name_cn": "Smile 系列迷你体(Ming/Meng/Mong)",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/8",
+    "size_class": "八分",
+    "height_cm": 17.5,
+    "gender": "neutral",
+    "styles": [
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "BJD Collectasy",
+      "url": "https://bjdcollectasy.com/2018/01/30/secret-doll-updates/"
+    },
+    "notes": "韩国 Secretdoll 的17.5cm迷你幼体线(Ming/Meng/Mong 等),该社另推出过27cm新款小体。"
+  },
+  {
+    "id": "ufdoll-mini-sixth-20cm-girl-body",
+    "brand": "UFdoll",
+    "brand_cn": "UFdoll",
+    "country": "CN",
+    "name": "UFdoll Mini 1/6 20cm Girl Body",
+    "name_cn": "UF 1/6 迷你女素体(20cm)",
+    "type": "MJD",
+    "material": "PVC",
+    "scale": "1/6",
+    "size_class": "八分",
+    "height_cm": 20.0,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "纤细"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Amazon",
+      "url": "https://www.amazon.com/XiDonDon-UFdoll-Female-Action-Vanilla/dp/B0BDLB8FRM"
+    },
+    "notes": "UF家约20cm迷你女素体,PVC+ABS机械关节,尺寸介于OB22与OB24之间,白肌/普肌/香草肌可选,适配STO、Blythe、GSC等头。"
+  },
+  {
+    "id": "fairyland-pukipuki",
+    "brand": "Fairyland",
+    "brand_cn": "妖精乡",
+    "country": "KR",
+    "name": "PukiPuki Body",
+    "name_cn": "PukiPuki 掌上体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/12",
+    "size_class": "十二分",
+    "height_cm": 11.2,
+    "gender": "neutral",
+    "styles": [
+      "幼体",
+      "动漫"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=pukipuki"
+    },
+    "notes": "Fairyland 约11.2cm的掌上Q版体,脸板、手脚均用磁铁吸附,可快速替换表情与手脚件。"
+  },
+  {
+    "id": "gsc-nendoroid-doll-archetype-1-1-girl",
+    "brand": "Good Smile Company",
+    "brand_cn": "良笑社",
+    "country": "JP",
+    "name": "Nendoroid Doll archetype 1.1: Girl",
+    "name_cn": "粘土人Doll 素体1.1 少女",
+    "type": "MJD",
+    "material": "PVC",
+    "scale": "1/12",
+    "size_class": "十二分",
+    "height_cm": 10.0,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Good Smile Company",
+      "url": "https://www.goodsmile.com/en/product/11854"
+    },
+    "notes": "掌心尺寸ABS&PVC可动素体,身体约100mm,脚底磁铁配磁性底座,可直接换装并适配粘土人头部(头部需另购),多肤色可选。"
+  },
+  {
+    "id": "gsc-nendoroid-doll-archetype-1-1-boy",
+    "brand": "Good Smile Company",
+    "brand_cn": "良笑社",
+    "country": "JP",
+    "name": "Nendoroid Doll archetype 1.1: Boy",
+    "name_cn": "粘土人Doll 素体1.1 少年",
+    "type": "MJD",
+    "material": "PVC",
+    "scale": "1/12",
+    "size_class": "十二分",
+    "height_cm": 10.0,
+    "gender": "male",
+    "styles": [
+      "动漫",
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Good Smile Company",
+      "url": "https://www.goodsmile.com/en/product/8746/Nendoroid+Doll+archetype+1.1+Boy+Cream+"
+    },
+    "notes": "粘土人Doll男孩素体1.1版,附三组替换手型与两种颈关节,改良版固定金属片支架,Cream/Almond Milk/Peach等肤色。"
+  },
+  {
+    "id": "gsc-nendoroid-doll-archetype-1-1-woman",
+    "brand": "Good Smile Company",
+    "brand_cn": "良笑社",
+    "country": "JP",
+    "name": "Nendoroid Doll archetype 1.1: Woman",
+    "name_cn": "粘土人Doll 素体1.1 女性",
+    "type": "MJD",
+    "material": "PVC",
+    "scale": "1/12",
+    "size_class": "十二分",
+    "height_cm": null,
+    "gender": "female",
+    "styles": [
+      "动漫",
+      "成熟"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Good Smile Company",
+      "url": "https://www.goodsmile.com/en/product/8744/Nendoroid+Doll+archetype+1.1+Woman+Cream+"
+    },
+    "notes": "比Girl素体更高挑的成年女性比例版本,ABS&PVC材质,同样带磁吸脚底与可动支架。"
+  },
+  {
+    "id": "moowooart-sugar-index-100",
+    "brand": "MOOWOOART",
+    "brand_cn": "魔屋阿特",
+    "country": "CN",
+    "name": "Sugar Index 100% Movable Doll Blind Box",
+    "name_cn": "糖指数100% 十二分可动人偶盲盒",
+    "type": "MJD",
+    "material": "PVC",
+    "scale": "1/12",
+    "size_class": "十二分",
+    "height_cm": null,
+    "gender": "neutral",
+    "styles": [
+      "动漫"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2025-06-28/doc-infcquyr1798192.shtml"
+    },
+    "notes": "2025年6月摩点众筹约870.45万元的十二分可动人偶盲盒,球形关节、四肢内置铝线、手脚可替换,单盒138元,出自2024年成立的武汉魔屋阿特。"
+  },
+  {
+    "id": "obitsu-11",
+    "brand": "Obitsu",
+    "brand_cn": "奥比茨",
+    "country": "JP",
+    "name": "Obitsu Body 11 (OB11)",
+    "name_cn": "奥比茨11 素体",
+    "type": "MJD",
+    "material": "ABS/POM",
+    "scale": "1/12",
+    "size_class": "十二分",
+    "height_cm": 11.0,
+    "gender": "neutral",
+    "styles": [
+      "幼体",
+      "动漫"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Amazon",
+      "url": "https://www.amazon.com/Obitsu-Infant-11BD-D01N-G-Natural-Magnet/dp/B0051OK1IG"
+    },
+    "notes": "本体约8cm+1cm颈、配头全高约11cm的幼儿型小素体,脚底带磁铁,是OB11捏脸圈的核心素体。"
+  },
+  {
+    "id": "ufdoll-animal-form-body",
+    "brand": "UFdoll",
+    "brand_cn": "UFdoll",
+    "country": "CN",
+    "name": "UFdoll Special Animal Form Body",
+    "name_cn": "UF 兽形特殊素体",
+    "type": "MJD",
+    "material": "PVC",
+    "scale": "1/12",
+    "size_class": "十二分",
+    "height_cm": null,
+    "gender": "neutral",
+    "styles": [
+      "兽体",
+      "动漫"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "Amazon",
+      "url": "https://www.amazon.com/UFDoll-Special-Suitable-Replacement-Vanilla/dp/B0B6F5NBS4"
+    },
+    "notes": "UF家兽形特殊可动素体,适配GSC粘土人、STO及1/12 BJD头雕替换使用,香草肌配色。"
+  },
+  {
+    "id": "ymy-gen2-ob11-body",
+    "brand": "YMY",
+    "brand_cn": "YMY",
+    "country": "CN",
+    "name": "YMY 2nd Generation OB11-size Doll Body",
+    "name_cn": "YMY 二代素体",
+    "type": "MJD",
+    "material": "PVC",
+    "scale": "1/12",
+    "size_class": "十二分",
+    "height_cm": null,
+    "gender": "neutral",
+    "styles": [
+      "动漫"
+    ],
+    "bust_options": [
+      "男胸",
+      "女胸"
+    ],
+    "views": [],
+    "source": {
+      "site": "AliExpress",
+      "url": "https://www.aliexpress.com/i/1005004982587330.html"
+    },
+    "notes": "国产OB11尺寸热门平价素体二代,球形关节可360°转动,颈口按GSC官方模具尺寸适配粘土人头,四肤色并附磁性底座与替换手。"
+  },
+  {
+    "id": "piccodo-body9",
+    "brand": "PICCODO (GENESIS)",
+    "brand_cn": "PICCODO",
+    "country": "JP",
+    "name": "PICCODO Series BODY9 Deformed Doll Body",
+    "name_cn": "PICCODO BODY9 Q版素体",
+    "type": "MJD",
+    "material": "PVC/POM",
+    "scale": "1/12",
+    "size_class": "其他",
+    "height_cm": 9.5,
+    "gender": "neutral",
+    "styles": [
+      "动漫",
+      "幼体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "HobbyLink Japan",
+      "url": "https://www.hlj.com/piccodo-series-body9-deformed-doll-body-pic-d001pb-pure-black-gns81266"
+    },
+    "notes": "PVC制Q版可动素体,全身17处可动、适配4mm颈径娃头,常作OB11级替换体;系列另有BODY10(约10.5cm)与约21.2cm的BODY20。"
+  },
+  {
+    "id": "soom-centaur-body",
+    "brand": "Soom",
+    "brand_cn": "Soom",
+    "country": "KR",
+    "name": "Soom Centaur Body",
+    "name_cn": "Soom 人马体",
+    "type": "BJD",
+    "material": "树脂",
+    "scale": "1/4",
+    "size_class": "其他",
+    "height_cm": null,
+    "gender": "neutral",
+    "styles": [
+      "兽体",
+      "特殊体"
+    ],
+    "bust_options": [],
+    "views": [],
+    "source": {
+      "site": "BJD Collectasy",
+      "url": "https://bjdcollectasy.com/tag/centaur-bjd/"
+    },
+    "notes": "人上半身+马身四蹄的人马素体,出过 Little Gem(43cm级)与 Teenie Gem(26cm级)两档,附透明树脂马蹄与马尾,可动性优于多数人马体。"
+  }
+]
