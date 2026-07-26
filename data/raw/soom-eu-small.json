@@ -12,10 +12,32 @@
     "size_class": "三分",
     "height_cm": 65,
     "gender": "male",
-    "styles": ["成熟", "肌肉"],
+    "styles": [
+      "成熟",
+      "肌肉"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "SOOM The Gem 官网", "url": "https://gem.dollsoom.com/en/product-category/le-dolls-en/le-super-gem-en/sgm-en/"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "SOOM The Gem 官网",
+      "url": "https://gem.dollsoom.com/en/product-category/le-dolls-en/le-super-gem-en/sgm-en/"
+    },
     "notes": "Soom 招牌三分男体,全高约65cm、胸围28cm,是众多月娃限定的通用素体。"
   },
   {
@@ -31,10 +53,32 @@
     "size_class": "三分",
     "height_cm": 62.5,
     "gender": "female",
-    "styles": ["成熟", "纤细"],
+    "styles": [
+      "成熟",
+      "纤细"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "Dolls Art Cats Blog", "url": "https://dollsartcats.blogspot.com/2015/01/some-measurements-for-new-super-gem.html"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "Dolls Art Cats Blog",
+      "url": "https://dollsartcats.blogspot.com/2015/01/some-measurements-for-new-super-gem.html"
+    },
     "notes": "Super Gem 三分女体约62.5cm,后期推出可动性改良的 Mobility 新版女体。"
   },
   {
@@ -50,10 +94,33 @@
     "size_class": "叔叔体",
     "height_cm": 75,
     "gender": "male",
-    "styles": ["成熟", "肌肉", "写实"],
+    "styles": [
+      "成熟",
+      "肌肉",
+      "写实"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "Anubis Doll Café", "url": "https://anubisdolls.com/products/soom-idealian-75-body-instock"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-idealian-75/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-75/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-75/03.png"
+      }
+    ],
+    "source": {
+      "site": "Anubis Doll Café",
+      "url": "https://anubisdolls.com/products/soom-idealian-75-body-instock"
+    },
     "notes": "Soom 2020 年起的75cm叔叔体,颈围13cm,体格高大健硕的写实男体。"
   },
   {
@@ -69,10 +136,17 @@
     "size_class": "叔叔体",
     "height_cm": 72,
     "gender": "male",
-    "styles": ["成熟", "肌肉", "写实"],
+    "styles": [
+      "成熟",
+      "肌肉",
+      "写实"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Soom_Idealian"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Soom_Idealian"
+    },
     "notes": "Idealian 系列72cm版本叔叔体,连头约72cm,可与 Iplehouse EID 等大男体互穿衣物。"
   },
   {
@@ -88,10 +162,32 @@
     "size_class": "四分",
     "height_cm": 43,
     "gender": "neutral",
-    "styles": ["幼体", "纤细"],
+    "styles": [
+      "幼体",
+      "纤细"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "iMda Doll 官方商店", "url": "https://en.imdadoll.shop/category/imda-43/45/"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/01.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/03.png"
+      }
+    ],
+    "source": {
+      "site": "iMda Doll 官方商店",
+      "url": "https://en.imdadoll.shop/category/imda-43/45/"
+    },
     "notes": "Soom 艺术子品牌 iMda 的43cm四分线,代表娃如 Manon、Valérie,少年感艺术幼体。"
   },
   {
@@ -107,10 +203,15 @@
     "size_class": "六分",
     "height_cm": 30.5,
     "gender": "neutral",
-    "styles": ["幼体"],
+    "styles": [
+      "幼体"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "iMda Doll 官网尺寸页", "url": "http://imda.co.kr/english/imda_dresspattern/imdadoll_size.htm"},
+    "source": {
+      "site": "iMda Doll 官网尺寸页",
+      "url": "http://imda.co.kr/english/imda_dresspattern/imdadoll_size.htm"
+    },
     "notes": "iMda 六分幼体线,全高30.5cm、眼珠16-18mm,头大身圆的软萌儿童比例。"
   },
   {
@@ -126,10 +227,31 @@
     "size_class": "六分",
     "height_cm": 26,
     "gender": "neutral",
-    "styles": ["幼体"],
+    "styles": [
+      "幼体"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "iMda Doll 官方商店", "url": "https://en.imdadoll.shop/product/26-simonne/440/"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-imda-2-6/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-2-6/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-2-6/03.png"
+      }
+    ],
+    "source": {
+      "site": "iMda Doll 官方商店",
+      "url": "https://en.imdadoll.shop/product/26-simonne/440/"
+    },
     "notes": "iMda 最小的26cm幼体线,代表娃 Simonne、Colette,眼珠14mm的迷你儿童体。"
   },
   {
@@ -145,10 +267,16 @@
     "size_class": "三分",
     "height_cm": 65,
     "gender": "male",
-    "styles": ["特殊体", "成熟"],
+    "styles": [
+      "特殊体",
+      "成熟"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Soom_Super_Gem_Heliot"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Soom_Super_Gem_Heliot"
+    },
     "notes": "Super Gem 月娃幻想版之一,以独角兽为灵感,配角、兽耳与蹄腿等幻想部件,幻想蹄腿比人腿更长。"
   },
   {
@@ -164,10 +292,32 @@
     "size_class": "其他",
     "height_cm": null,
     "gender": "neutral",
-    "styles": ["兽体", "特殊体"],
+    "styles": [
+      "兽体",
+      "特殊体"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "BJD Collectasy", "url": "https://bjdcollectasy.com/tag/centaur-bjd/"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-centaur-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "BJD Collectasy",
+      "url": "https://bjdcollectasy.com/tag/centaur-bjd/"
+    },
     "notes": "人上半身+马身四蹄的人马素体,出过 Little Gem(43cm级)与 Teenie Gem(26cm级)两档,附透明树脂马蹄与马尾,可动性优于多数人马体。"
   },
   {
@@ -183,10 +333,16 @@
     "size_class": "三分",
     "height_cm": 64,
     "gender": "male",
-    "styles": ["青年", "纤细"],
+    "styles": [
+      "青年",
+      "纤细"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "WorthPoint", "url": "https://www.worthpoint.com/worthopedia/doll-granado-nuevo-64cm-male-body-858944371"},
+    "source": {
+      "site": "WorthPoint",
+      "url": "https://www.worthpoint.com/worthopedia/doll-granado-nuevo-64cm-male-body-858944371"
+    },
     "notes": "Granado 2011 年创社早期的64cm三分男体,男体专门社的青年身形起点作。"
   },
   {
@@ -202,10 +358,33 @@
     "size_class": "三分",
     "height_cm": 66,
     "gender": "male",
-    "styles": ["成熟", "肌肉", "写实"],
+    "styles": [
+      "成熟",
+      "肌肉",
+      "写实"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "Granado 官网", "url": "https://www.doll-granado.com/product-page/male-body-lads-plus"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/granado-lads/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/granado-lads/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/granado-lads/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "Granado 官网",
+      "url": "https://www.doll-granado.com/product-page/male-body-lads-plus"
+    },
     "notes": "Granado 写实向66cm成年男体,另有 Lads Plus 68cm加高版,肌肉线条精细。"
   },
   {
@@ -221,10 +400,32 @@
     "size_class": "叔叔体",
     "height_cm": 70,
     "gender": "male",
-    "styles": ["成熟", "写实"],
+    "styles": [
+      "成熟",
+      "写实"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "BJD Collectasy", "url": "https://bjdcollectasy.com/2016/11/07/embody-a-review/"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/granado-embody/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/granado-embody/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/granado-embody/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "BJD Collectasy",
+      "url": "https://bjdcollectasy.com/2016/11/07/embody-a-review/"
+    },
     "notes": "含头约70cm的大男体,是同尺寸 Evol 体的减肌肉版,可动性佳,可穿 Iplehouse EID/SID 级衣物。"
   },
   {
@@ -240,10 +441,16 @@
     "size_class": "四分",
     "height_cm": 40,
     "gender": "female",
-    "styles": ["纤细", "特殊体"],
+    "styles": [
+      "纤细",
+      "特殊体"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Ball-Jointed Doll Wiki (Fandom)", "url": "https://bjd.fandom.com/wiki/Popovy_Sisters"},
+    "source": {
+      "site": "Ball-Jointed Doll Wiki (Fandom)",
+      "url": "https://bjd.fandom.com/wiki/Popovy_Sisters"
+    },
     "notes": "俄罗斯双人组艺术人形,约40cm聚氨酯树脂体,以时装画式的极端拉长骨感轮廓著称,关节内衬硅胶、定型极稳。"
   },
   {
@@ -259,10 +466,32 @@
     "size_class": "六分",
     "height_cm": 28,
     "gender": "neutral",
-    "styles": ["幼体", "丰满"],
+    "styles": [
+      "幼体",
+      "丰满"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "Meadowdolls 官网", "url": "https://www.meadowdolls.org/dumplings"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/01.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/03.png"
+      }
+    ],
+    "source": {
+      "site": "Meadowdolls 官网",
+      "url": "https://www.meadowdolls.org/dumplings"
+    },
     "notes": "瑞典独立工作室 Meadowdolls 的28cm圆润幼体线,因胖乎乎的体型得名 Dumplings(团子)。"
   },
   {
@@ -278,10 +507,15 @@
     "size_class": "六分",
     "height_cm": 34,
     "gender": "neutral",
-    "styles": ["幼体"],
+    "styles": [
+      "幼体"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Ball-Jointed Doll Wiki (Fandom)", "url": "https://bjd.fandom.com/wiki/Dust_of_Dolls_Cham"},
+    "source": {
+      "site": "Ball-Jointed Doll Wiki (Fandom)",
+      "url": "https://bjd.fandom.com/wiki/Dust_of_Dolls_Cham"
+    },
     "notes": "法国 Dust of Dolls 的34cm艺术幼体线,该社尺寸从11cm到60cm不等,部分线(如 Spün)已于2020年停产。"
   },
   {
@@ -297,10 +531,16 @@
     "size_class": "十二分",
     "height_cm": 11.2,
     "gender": "neutral",
-    "styles": ["幼体", "动漫"],
+    "styles": [
+      "幼体",
+      "动漫"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=pukipuki"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=pukipuki"
+    },
     "notes": "Fairyland 约11.2cm的掌上Q版体,脸板、手脚均用磁铁吸附,可快速替换表情与手脚件。"
   },
   {
@@ -316,10 +556,32 @@
     "size_class": "三分",
     "height_cm": 60,
     "gender": "neutral",
-    "styles": ["特殊体", "纤细"],
+    "styles": [
+      "特殊体",
+      "纤细"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "CP/FairyLand 官网", "url": "https://cpfairyland.com/product/fairyline-mermaid-body/"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "CP/FairyLand 官网",
+      "url": "https://cpfairyland.com/product/fairyline-mermaid-body/"
+    },
     "notes": "FairyLine 60 线的人鱼素体,海马式多关节鱼尾配鳍臂蹼手,男女头皆可用,有多色半透明树脂。"
   },
   {
@@ -335,10 +597,31 @@
     "size_class": "八分",
     "height_cm": 17.5,
     "gender": "neutral",
-    "styles": ["幼体"],
+    "styles": [
+      "幼体"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "BJD Collectasy", "url": "https://bjdcollectasy.com/2018/01/30/secret-doll-updates/"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "BJD Collectasy",
+      "url": "https://bjdcollectasy.com/2018/01/30/secret-doll-updates/"
+    },
     "notes": "韩国 Secretdoll 的17.5cm迷你幼体线(Ming/Meng/Mong 等),该社另推出过27cm新款小体。"
   }
 ]

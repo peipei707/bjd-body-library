@@ -1753,7 +1753,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "https://raddollclothes.com/cdn/shop/files/MarchHinaMatsuri_{width}x.png?v=1772378432"
+      }
+    ],
     "source": {
       "site": "Requiem Art Designs",
       "url": "https://raddollclothes.com/blogs/news/dollfie-dream-pretty-the-new-teen-1-3-size"

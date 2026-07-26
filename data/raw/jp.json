@@ -12,10 +12,16 @@
     "size_class": "三分",
     "height_cm": 60,
     "gender": "male",
-    "styles": ["少年", "写实"],
+    "styles": [
+      "少年",
+      "写实"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_13"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_13"
+    },
     "notes": "Volks经典三分男体,2016年全面停产,由可动性更好的SDGr男体接替。"
   },
   {
@@ -31,10 +37,16 @@
     "size_class": "三分",
     "height_cm": 57,
     "gender": "female",
-    "styles": ["少女", "写实"],
+    "styles": [
+      "少女",
+      "写实"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_13"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_13"
+    },
     "notes": "以约13岁少女为原型的经典三分女体,长期作为Volks限定娃的标准素体。"
   },
   {
@@ -50,10 +62,16 @@
     "size_class": "三分",
     "height_cm": 62,
     "gender": "male",
-    "styles": ["青年", "写实"],
+    "styles": [
+      "青年",
+      "写实"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_Graffiti"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_Graffiti"
+    },
     "notes": "SD13男体的换代新设计,双关节结构大幅提升可动与摆姿能力。"
   },
   {
@@ -69,10 +87,16 @@
     "size_class": "三分",
     "height_cm": 57,
     "gender": "female",
-    "styles": ["少女", "成熟"],
+    "styles": [
+      "少女",
+      "成熟"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_Graffiti"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_Graffiti"
+    },
     "notes": "承袭SD16女体关节工艺的升级女体,可换高跟腿件后全高约59-60cm。"
   },
   {
@@ -88,10 +112,16 @@
     "size_class": "三分",
     "height_cm": 65,
     "gender": "male",
-    "styles": ["成熟", "青年"],
+    "styles": [
+      "成熟",
+      "青年"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_16"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_16"
+    },
     "notes": "以约16岁少年为原型的高大成熟男体,是Volks可动性最强的素体之一。"
   },
   {
@@ -107,10 +137,21 @@
     "size_class": "三分",
     "height_cm": 62.3,
     "gender": "female",
-    "styles": ["成熟", "丰满"],
-    "bust_options": ["SS", "S", "M", "L"],
+    "styles": [
+      "成熟",
+      "丰满"
+    ],
+    "bust_options": [
+      "SS",
+      "S",
+      "M",
+      "L"
+    ],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_16"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_16"
+    },
     "notes": "身形成熟的大女孩体,胸围SS/S/M/L四档可换。"
   },
   {
@@ -126,10 +167,16 @@
     "size_class": "三分",
     "height_cm": 65,
     "gender": "male",
-    "styles": ["成熟", "青年"],
+    "styles": [
+      "成熟",
+      "青年"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_17"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Super_Dollfie_17"
+    },
     "notes": "约65-65.5cm的高挑成熟男体,多用于高端限定与人气角色娃。"
   },
   {
@@ -145,10 +192,16 @@
     "size_class": "四分",
     "height_cm": 43,
     "gender": "neutral",
-    "styles": ["幼体", "纤细"],
+    "styles": [
+      "幼体",
+      "纤细"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Mini_Super_Dollfie"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Mini_Super_Dollfie"
+    },
     "notes": "约42-43cm的四分儿童体,男女款皆有,标准款现已停产、由SD Midi接替。"
   },
   {
@@ -164,10 +217,15 @@
     "size_class": "六分",
     "height_cm": 26.5,
     "gender": "neutral",
-    "styles": ["幼体"],
+    "styles": [
+      "幼体"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Yo_Super_Dollfie"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Yo_Super_Dollfie"
+    },
     "notes": "Volks最小的幼儿比例树脂素体(约26.5cm),仅以限定形式发售,人气极高。"
   },
   {
@@ -183,10 +241,20 @@
     "size_class": "三分",
     "height_cm": 60,
     "gender": "female",
-    "styles": ["动漫", "少女"],
-    "bust_options": ["S", "M", "L"],
+    "styles": [
+      "动漫",
+      "少女"
+    ],
+    "bust_options": [
+      "S",
+      "M",
+      "L"
+    ],
     "views": [],
-    "source": {"site": "Den of Angels BJD Wiki", "url": "https://denofangels.com/doawiki/index.php?title=Dollfie_Dream"},
+    "source": {
+      "site": "Den of Angels BJD Wiki",
+      "url": "https://denofangels.com/doawiki/index.php?title=Dollfie_Dream"
+    },
     "notes": "60cm级动漫风软胶素体,内置可动骨架,胸围S/M/L可选,现已换装新一代DD-f3内框。"
   },
   {
@@ -202,10 +270,37 @@
     "size_class": "三分",
     "height_cm": 54.5,
     "gender": "female",
-    "styles": ["动漫", "少女", "纤细"],
-    "bust_options": ["S", "M", "L"],
-    "views": [],
-    "source": {"site": "VOLKS USA", "url": "https://volksusa.store/products/dds-base-body"},
+    "styles": [
+      "动漫",
+      "少女",
+      "纤细"
+    ],
+    "bust_options": [
+      "S",
+      "M",
+      "L"
+    ],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/volks-dds/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-dds/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-dds/03.png"
+      }
+    ],
+    "source": {
+      "site": "VOLKS USA",
+      "url": "https://volksusa.store/products/dds-base-body"
+    },
     "notes": "官方定位为DD的娇小'妹妹体',整体比DD纤细,实测全高约54.5cm。"
   },
   {
@@ -221,10 +316,33 @@
     "size_class": "三分",
     "height_cm": 58,
     "gender": "female",
-    "styles": ["动漫", "丰满", "成熟"],
+    "styles": [
+      "动漫",
+      "丰满",
+      "成熟"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "VOLKS USA", "url": "https://volksusa.store/products/dddy-base-body"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/volks-dddy/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-dddy/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-dddy/03.png"
+      }
+    ],
+    "source": {
+      "site": "VOLKS USA",
+      "url": "https://volksusa.store/products/dddy-base-body"
+    },
     "notes": "胸臀更丰满的'火辣'体型,全高约57-58cm,适合成熟系角色。"
   },
   {
@@ -240,10 +358,32 @@
     "size_class": "四分",
     "height_cm": 43.5,
     "gender": "female",
-    "styles": ["动漫", "幼体"],
+    "styles": [
+      "动漫",
+      "幼体"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "VOLKS USA", "url": "https://volksusa.store/products/mdd-base-body"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/volks-mdd/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-mdd/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-mdd/03.png"
+      }
+    ],
+    "source": {
+      "site": "VOLKS USA",
+      "url": "https://volksusa.store/products/mdd-base-body"
+    },
     "notes": "约43.5cm的迷你DD,2023年率先搭载新一代DD-f3内骨架,另有约43cm的Mochi-Ashi圆润短腿版。"
   },
   {
@@ -259,10 +399,33 @@
     "size_class": "大四分",
     "height_cm": 51,
     "gender": "female",
-    "styles": ["动漫", "少女", "纤细"],
+    "styles": [
+      "动漫",
+      "少女",
+      "纤细"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "Requiem Art Designs", "url": "https://raddollclothes.com/blogs/news/dollfie-dream-pretty-the-new-teen-1-3-size"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "https://raddollclothes.com/cdn/shop/files/MarchHinaMatsuri_{width}x.png?v=1772378432"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-ddp/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-ddp/03.png"
+      }
+    ],
+    "source": {
+      "site": "Requiem Art Designs",
+      "url": "https://raddollclothes.com/blogs/news/dollfie-dream-pretty-the-new-teen-1-3-size"
+    },
     "notes": "介于MDD与DDS之间的'Teen 1/3'少女体,全高约51cm,比例贴近少女/小学高年级偶像角色。"
   },
   {
@@ -278,10 +441,32 @@
     "size_class": "三分",
     "height_cm": 60,
     "gender": "female",
-    "styles": ["动漫", "纤细"],
+    "styles": [
+      "动漫",
+      "纤细"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "Smart Doll Store", "url": "https://shop.smartdoll.jp/products/what-is-smart-doll"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/smartdoll-girl/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/smartdoll-girl/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/smartdoll-girl/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "Smart Doll Store",
+      "url": "https://shop.smartdoll.jp/products/what-is-smart-doll"
+    },
     "notes": "Danny Choo打造的60cm东京手工软胶素体,内骨架可动,以大长腿轮廓与多肤色著称。"
   },
   {
@@ -297,10 +482,25 @@
     "size_class": "三分",
     "height_cm": 62,
     "gender": "male",
-    "styles": ["动漫", "青年"],
-    "bust_options": ["Slim", "Macho"],
-    "views": [],
-    "source": {"site": "Tumblr (Smart Doll Measurements)", "url": "https://www.tumblr.com/medalis-blog/133614070565/smart-doll-measurements-ebonyivorykizunamirai"},
+    "styles": [
+      "动漫",
+      "青年"
+    ],
+    "bust_options": [
+      "Slim",
+      "Macho"
+    ],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/smartdoll-guy/01.jpg"
+      }
+    ],
+    "source": {
+      "site": "Tumblr (Smart Doll Measurements)",
+      "url": "https://www.tumblr.com/medalis-blog/133614070565/smart-doll-measurements-ebonyivorykizunamirai"
+    },
     "notes": "男性版Smart Doll,初代男体约62cm,新版稍降身高提升稳定性,默认Macho胸型并可换Slim胸臂件。"
   },
   {
@@ -316,10 +516,16 @@
     "size_class": "十二分",
     "height_cm": 11,
     "gender": "neutral",
-    "styles": ["幼体", "动漫"],
+    "styles": [
+      "幼体",
+      "动漫"
+    ],
     "bust_options": [],
     "views": [],
-    "source": {"site": "Amazon", "url": "https://www.amazon.com/Obitsu-Infant-11BD-D01N-G-Natural-Magnet/dp/B0051OK1IG"},
+    "source": {
+      "site": "Amazon",
+      "url": "https://www.amazon.com/Obitsu-Infant-11BD-D01N-G-Natural-Magnet/dp/B0051OK1IG"
+    },
     "notes": "本体约8cm+1cm颈、配头全高约11cm的幼儿型小素体,脚底带磁铁,是OB11捏脸圈的核心素体。"
   },
   {
@@ -335,10 +541,37 @@
     "size_class": "六分",
     "height_cm": 24,
     "gender": "female",
-    "styles": ["少女", "纤细", "动漫"],
-    "bust_options": ["S", "M", "L"],
-    "views": [],
-    "source": {"site": "HobbyLink Japan", "url": "https://www.hlj.com/1-6-scale-24cm-obitsu-body-bust-s-new-model-natural-obt05328"},
+    "styles": [
+      "少女",
+      "纤细",
+      "动漫"
+    ],
+    "bust_options": [
+      "S",
+      "M",
+      "L"
+    ],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/obitsu-24/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/obitsu-24/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/obitsu-24/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "HobbyLink Japan",
+      "url": "https://www.hlj.com/1-6-scale-24cm-obitsu-body-bust-s-new-model-natural-obt05328"
+    },
     "notes": "软胶躯干+内骨架的1/6女素体,不含头约22cm、含头约24cm,胸围S/M/L可选,系列另有22/26cm姐妹款。"
   },
   {
@@ -354,10 +587,19 @@
     "size_class": "大四分",
     "height_cm": 50,
     "gender": "female",
-    "styles": ["少女", "动漫"],
-    "bust_options": ["M", "L"],
+    "styles": [
+      "少女",
+      "动漫"
+    ],
+    "bust_options": [
+      "M",
+      "L"
+    ],
     "views": [],
-    "source": {"site": "HobbySearch (1999.co.jp)", "url": "https://www.1999.co.jp/eng/11251774"},
+    "source": {
+      "site": "HobbySearch (1999.co.jp)",
+      "url": "https://www.1999.co.jp/eng/11251774"
+    },
     "notes": "约50cm的1/3通用软胶女体,塑料骨架+软胶外皮,也是Vmf50/Parabox 45cm等50cm级素体的技术基础。"
   },
   {
@@ -373,10 +615,32 @@
     "size_class": "八分",
     "height_cm": 22,
     "gender": "female",
-    "styles": ["动漫", "少女"],
+    "styles": [
+      "动漫",
+      "少女"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "HobbyLink Japan", "url": "https://www.hlj.com/pure-neemo-flection-full-action-m-size-ll-bust-flesh-aznpfl013fls"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/azone-pure-neemo-flection/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/azone-pure-neemo-flection/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/azone-pure-neemo-flection/03.png"
+      }
+    ],
+    "source": {
+      "site": "HobbyLink Japan",
+      "url": "https://www.hlj.com/pure-neemo-flection-full-action-m-size-ll-bust-flesh-aznpfl013fls"
+    },
     "notes": "Azone自研1/6可动素体,分XS/S/M/L四档身高(约18-23cm),女生M/L码另有不同胸围件,也有男生款。"
   },
   {
@@ -392,10 +656,32 @@
     "size_class": "其他",
     "height_cm": 9.5,
     "gender": "neutral",
-    "styles": ["动漫", "幼体"],
+    "styles": [
+      "动漫",
+      "幼体"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "HobbyLink Japan", "url": "https://www.hlj.com/piccodo-series-body9-deformed-doll-body-pic-d001pb-pure-black-gns81266"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/piccodo-body9/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/piccodo-body9/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/piccodo-body9/03.jpg"
+      }
+    ],
+    "source": {
+      "site": "HobbyLink Japan",
+      "url": "https://www.hlj.com/piccodo-series-body9-deformed-doll-body-pic-d001pb-pure-black-gns81266"
+    },
     "notes": "PVC制Q版可动素体,全身17处可动、适配4mm颈径娃头,常作OB11级替换体;系列另有BODY10(约10.5cm)与约21.2cm的BODY20。"
   },
   {
@@ -411,10 +697,33 @@
     "size_class": "大四分",
     "height_cm": 50,
     "gender": "female",
-    "styles": ["成熟", "丰满", "写实"],
+    "styles": [
+      "成熟",
+      "丰满",
+      "写实"
+    ],
     "bust_options": [],
-    "views": [],
-    "source": {"site": "HobbyLink Japan", "url": "https://www.hlj.com/1-3-scale-vmf50-head-body-type-e-brown-neutral-50cm-ymt34907"},
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/angelphilia-vmf50/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/angelphilia-vmf50/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/angelphilia-vmf50/03.png"
+      }
+    ],
+    "source": {
+      "site": "HobbyLink Japan",
+      "url": "https://www.hlj.com/1-3-scale-vmf50-head-body-type-e-brown-neutral-50cm-ymt34907"
+    },
     "notes": "源自Obitsu 50cm体系的高可动软胶女体,内骨架+肌肉感外皮,Yamato更名Arcadia后以Angel Philia线延续,提供A-E等多种体型。"
   }
 ]
