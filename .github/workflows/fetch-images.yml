@@ -1,0 +1,43 @@
+name: 抓取官方图片
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 每款身体最多抓几张图
+        default: "3"
+        required: false
+      force:
+        description: 已有图的条目也重抓(填 true 生效)
+        default: "false"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 从来源页抓取官方图
+        run: |
+          ARGS="--download --limit ${{ inputs.limit || '3' }}"
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          python3 scripts/fetch_images.py $ARGS
+
+      - name: 重建页面数据
+        run: python3 scripts/build.py
+
+      - name: 提交结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "本次没有抓到新图,无需提交"
+          else
+            git commit -m "Actions:自动抓取官方产品图并重建数据"
+            git push
+          fi
