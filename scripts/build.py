@@ -73,7 +73,7 @@ def norm_entry(e, src_file, problems):
     views = []
     for v in e.get("views") or []:
         url = (v or {}).get("url") or ""
-        if not url.startswith("http"):
+        if not (url.startswith("http") or url.startswith("images/")):
             continue
         vw = v.get("view") if v.get("view") in VIEW_NAMES else "正面"
         pt = v.get("part") if v.get("part") in PART_NAMES else "全身"

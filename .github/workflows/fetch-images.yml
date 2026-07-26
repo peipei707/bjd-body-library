@@ -5,7 +5,7 @@ on:
     inputs:
       limit:
         description: 每款身体最多抓几张图
-        default: "3"
+        default: "6"
         required: false
       force:
         description: 已有图的条目也重抓(填 true 生效)
@@ -23,9 +23,12 @@ jobs:
 
       - name: 从来源页抓取官方图
         run: |
-          ARGS="--download --limit ${{ inputs.limit || '3' }}"
+          ARGS="--download --limit ${{ inputs.limit || '6' }}"
           if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
           python3 scripts/fetch_images.py $ARGS
+
+      - name: 清理站标等垃圾图
+        run: python3 scripts/clean_images.py
 
       - name: 重建页面数据
         run: python3 scripts/build.py

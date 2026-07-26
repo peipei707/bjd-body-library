@@ -22,16 +22,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/dikadoll-70cm-senior-boy-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dikadoll-70cm-senior-boy-body/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dikadoll-70cm-senior-boy-body/03.png"
       }
     ],
     "source": {
@@ -129,23 +119,7 @@
       "青年"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/gem-of-doll-63cm-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/gem-of-doll-63cm-body/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/gem-of-doll-63cm-body/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Alice's Collections",
       "url": "https://www.acbjd.com/gem-of-doll-event-doll-body-c-596_597.html"
@@ -173,16 +147,6 @@
     "views": [
       {
         "view": "正面",
-        "part": "全身",
-        "url": "images/popodoll-68cm-boy-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/popodoll-68cm-boy-body/02.jpg"
-      },
-      {
-        "view": "细节",
         "part": "全身",
         "url": "images/popodoll-68cm-boy-body/03.jpg"
       }
@@ -213,16 +177,6 @@
     "views": [
       {
         "view": "正面",
-        "part": "全身",
-        "url": "images/popodoll-60cm-girl-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/popodoll-60cm-girl-body/02.jpg"
-      },
-      {
-        "view": "细节",
         "part": "全身",
         "url": "images/popodoll-60cm-girl-body/03.jpg"
       }
@@ -316,23 +270,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/telesthesia-td-72cm-boy-body-ver1/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/telesthesia-td-72cm-boy-body-ver1/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/telesthesia-td-72cm-boy-body-ver1/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Alice's Collections",
       "url": "https://www.acbjd.com/td-72cm-boy-body-veri-p-8525.html?cPath=525_526"
@@ -359,11 +297,6 @@
     "views": [
       {
         "view": "正面",
-        "part": "全身",
-        "url": "images/aimerai-codenoir-mfb-04-quarter-body/01.jpg"
-      },
-      {
-        "view": "细节",
         "part": "全身",
         "url": "images/aimerai-codenoir-mfb-04-quarter-body/02.jpg"
       },
@@ -396,23 +329,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/impldoll-62cm-girl-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/impldoll-62cm-girl-body/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/impldoll-62cm-girl-body/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Alice's Collections",
       "url": "https://www.acbjd.com/impl-62cm-girl-body-p-19506.html"
@@ -567,11 +484,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/ymy-gen2-ob11-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/ymy-gen2-ob11-body/02.png"
       }
     ],
     "source": {
@@ -672,13 +584,7 @@
       "丰满"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/mozu-doll-60cm-series/01.png"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "MOZU DOLL日本官网",
       "url": "https://www.mozudoll.jp/cateList-49230.html"
@@ -707,11 +613,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/moowooart-sugar-index-100/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/moowooart-sugar-index-100/02.png"
       },
       {
         "view": "细节",

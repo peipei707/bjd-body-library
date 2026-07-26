@@ -290,11 +290,6 @@
         "view": "细节",
         "part": "全身",
         "url": "images/volks-dds/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-dds/03.png"
       }
     ],
     "source": {
@@ -332,11 +327,6 @@
         "view": "细节",
         "part": "全身",
         "url": "images/volks-dddy/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-dddy/03.png"
       }
     ],
     "source": {
@@ -373,11 +363,6 @@
         "view": "细节",
         "part": "全身",
         "url": "images/volks-mdd/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-mdd/03.png"
       }
     ],
     "source": {
@@ -551,23 +536,7 @@
       "M",
       "L"
     ],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/obitsu-24/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/obitsu-24/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/obitsu-24/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "HobbyLink Japan",
       "url": "https://www.hlj.com/1-6-scale-24cm-obitsu-body-bust-s-new-model-natural-obt05328"
@@ -620,23 +589,7 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/03.png"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "HobbyLink Japan",
       "url": "https://www.hlj.com/pure-neemo-flection-full-action-m-size-ll-bust-flesh-aznpfl013fls"
@@ -661,23 +614,7 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/piccodo-body9/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/piccodo-body9/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/piccodo-body9/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "HobbyLink Japan",
       "url": "https://www.hlj.com/piccodo-series-body9-deformed-doll-body-pic-d001pb-pure-black-gns81266"
@@ -703,23 +640,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/angelphilia-vmf50/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/angelphilia-vmf50/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/angelphilia-vmf50/03.png"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "HobbyLink Japan",
       "url": "https://www.hlj.com/1-3-scale-vmf50-head-body-type-e-brown-neutral-50cm-ymt34907"

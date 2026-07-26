@@ -26,11 +26,6 @@
       {
         "view": "细节",
         "part": "全身",
-        "url": "images/soom-super-gem-male/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
         "url": "images/soom-super-gem-male/03.jpg"
       }
     ],
@@ -105,16 +100,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/soom-idealian-75/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-idealian-75/02.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-idealian-75/03.png"
       }
     ],
     "source": {
@@ -167,23 +152,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/soom-imda-4-3/01.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-imda-4-3/02.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-imda-4-3/03.png"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "iMda Doll 官方商店",
       "url": "https://en.imdadoll.shop/category/imda-43/45/"
@@ -236,16 +205,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/soom-imda-2-6/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-imda-2-6/02.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-imda-2-6/03.png"
       }
     ],
     "source": {
@@ -369,16 +328,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/granado-lads/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/granado-lads/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/granado-lads/03.jpg"
       }
     ],
     "source": {
@@ -408,11 +357,6 @@
     "views": [
       {
         "view": "正面",
-        "part": "全身",
-        "url": "images/granado-embody/01.jpg"
-      },
-      {
-        "view": "细节",
         "part": "全身",
         "url": "images/granado-embody/02.png"
       },
@@ -571,11 +515,6 @@
         "view": "细节",
         "part": "全身",
         "url": "images/fairyland-fairyline-mermaid/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-fairyline-mermaid/03.jpg"
       }
     ],
     "source": {
@@ -604,11 +543,6 @@
     "views": [
       {
         "view": "正面",
-        "part": "全身",
-        "url": "images/secretdoll-smile-tiny/01.jpg"
-      },
-      {
-        "view": "细节",
         "part": "全身",
         "url": "images/secretdoll-smile-tiny/02.jpg"
       },

@@ -67,7 +67,13 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dikadoll-70cm-senior-boy-body/01.jpg"
+      }
+    ],
     "source": {
       "site": "LegendDoll",
       "url": "https://www.legenddoll.net/goods-7575.html"
@@ -193,7 +199,23 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dollshe-khan-24m-classic-maxi/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dollshe-khan-24m-classic-maxi/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dollshe-khan-24m-classic-maxi/03.png"
+      }
+    ],
     "source": {
       "site": "Dollshe Craft官网",
       "url": "https://www.dollshecraft.com/product/khan-24m-classic-maxi-72cm/"
@@ -219,7 +241,23 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dollshe-18m-pure-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dollshe-18m-pure-body/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dollshe-18m-pure-body/03.png"
+      }
+    ],
     "source": {
       "site": "Dollshe Craft官网",
       "url": "https://www.dollshecraft.com/product/18m-pure-body/"
@@ -294,7 +332,23 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/gem-of-doll-70cm-boy-body/01.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gem-of-doll-70cm-boy-body/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gem-of-doll-70cm-boy-body/03.jpg"
+      }
+    ],
     "source": {
       "site": "Dolce Luce Dolls",
       "url": "https://www.dolcelucedolls.com/gemofdoll"
@@ -319,7 +373,18 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/granado-embody/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/granado-embody/03.jpg"
+      }
+    ],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/2016/11/07/embody-a-review/"
@@ -470,7 +535,13 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/popodoll-68cm-boy-body/03.jpg"
+      }
+    ],
     "source": {
       "site": "Alice's Collections",
       "url": "https://www.acbjd.com/popo-68cm-boy-body-p-7897.html"
@@ -495,7 +566,18 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/ringdoll-rgmbody-2/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ringdoll-rgmbody-2/02.jpg"
+      }
+    ],
     "source": {
       "site": "Ringdoll官网",
       "url": "https://www.ringdoll.com/products/rgmbody-2"
@@ -521,7 +603,13 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-idealian-75/01.jpg"
+      }
+    ],
     "source": {
       "site": "Anubis Doll Café",
       "url": "https://anubisdolls.com/products/soom-idealian-75-body-instock"
@@ -597,7 +685,23 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/as-13-male-body-62/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/as-13-male-body-62/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/as-13-male-body-62/03.jpg"
+      }
+    ],
     "source": {
       "site": "Angell Studio官网",
       "url": "https://www.angell-studio.com/1-3-male-body_p0384.html"
@@ -647,7 +751,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dikadoll-57cm-girl-body/01.webp"
+      }
+    ],
     "source": {
       "site": "DikaDoll官网",
       "url": "http://www.dkdoll.com/productsen.asp?indid=15"
@@ -673,7 +783,23 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dollmore-model-doll-f/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dollmore-model-doll-f/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dollmore-model-doll-f/03.jpg"
+      }
+    ],
     "source": {
       "site": "Dollmore官网",
       "url": "https://www.dollmore.net/Mobile/Product/Category/list/cid/255"
@@ -698,7 +824,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dreamvalley-b56-01/01.jpg"
+      }
+    ],
     "source": {
       "site": "LegendDoll",
       "url": "https://www.legenddoll.net/goods-19254.html"
@@ -750,7 +882,18 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/02.jpg"
+      }
+    ],
     "source": {
       "site": "CP/FairyLand 官网",
       "url": "https://cpfairyland.com/product/fairyline-mermaid-body/"
@@ -800,7 +943,13 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/granado-lads/01.jpg"
+      }
+    ],
     "source": {
       "site": "Granado 官网",
       "url": "https://www.doll-granado.com/product-page/male-body-lads-plus"
@@ -850,7 +999,13 @@
       "肌肉"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/impldoll-star-sgb-65/01.jpg"
+      }
+    ],
     "source": {
       "site": "LegendDoll",
       "url": "http://legenddoll.net/goods-22068.html"
@@ -953,7 +1108,18 @@
       "青年"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/islanddoll-idf-65-body1/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/islanddoll-idf-65-body1/03.jpg"
+      }
+    ],
     "source": {
       "site": "Alice's Collections",
       "url": "http://www.acbjd.com/idf-65cm-boy-body1-p-7203.html?cPath=1_0_415_416"
@@ -1006,7 +1172,18 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/loongsoul-b-g58-02/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/loongsoul-b-g58-02/03.jpg"
+      }
+    ],
     "source": {
       "site": "LoongSoul官网",
       "url": "http://ls-doll.com/en/goods.php?id=504"
@@ -1031,7 +1208,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/luts-senior65-delf-girl/01.jpg"
+      }
+    ],
     "source": {
       "site": "Luts官网",
       "url": "https://eluts.com/product/senior65-delf-girl-body/20514/"
@@ -1055,7 +1238,13 @@
       "青年"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/luts-senior-delf-boy/01.jpg"
+      }
+    ],
     "source": {
       "site": "Luts官网",
       "url": "https://eluts.com/product/senior-delf-body-boy-type-1/3916/"
@@ -1080,7 +1269,23 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/maskcat-58-female-body/01.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/maskcat-58-female-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/maskcat-58-female-body/03.jpg"
+      }
+    ],
     "source": {
       "site": "Denver Doll",
       "url": "https://www.denverdoll.com/product/58cm-female-body/"
@@ -1158,7 +1363,18 @@
       "M",
       "L"
     ],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/myou-13-girl-58/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/myou-13-girl-58/03.jpg"
+      }
+    ],
     "source": {
       "site": "MYOU官网",
       "url": "https://www.myou-doll.com/product/product92.html"
@@ -1182,7 +1398,13 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/03.jpg"
+      }
+    ],
     "source": {
       "site": "Alice's Collections",
       "url": "https://www.acbjd.com/popo-doll-c-469.html"
@@ -1206,7 +1428,18 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/ringdoll-rtg60-4/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ringdoll-rtg60-4/02.jpg"
+      }
+    ],
     "source": {
       "site": "Ringdoll官网",
       "url": "https://www.ringdoll.com/products/rtg60-4"
@@ -1234,7 +1467,13 @@
       "Slim",
       "Macho"
     ],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/smartdoll-guy/01.jpg"
+      }
+    ],
     "source": {
       "site": "Tumblr (Smart Doll Measurements)",
       "url": "https://www.tumblr.com/medalis-blog/133614070565/smart-doll-measurements-ebonyivorykizunamirai"
@@ -1259,7 +1498,23 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/smartdoll-girl/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/smartdoll-girl/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/smartdoll-girl/03.jpg"
+      }
+    ],
     "source": {
       "site": "Smart Doll Store",
       "url": "https://shop.smartdoll.jp/products/what-is-smart-doll"
@@ -1284,7 +1539,18 @@
       "肌肉"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/03.jpg"
+      }
+    ],
     "source": {
       "site": "SOOM The Gem 官网",
       "url": "https://gem.dollsoom.com/en/product-category/le-dolls-en/le-super-gem-en/sgm-en/"
@@ -1334,7 +1600,23 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/03.jpg"
+      }
+    ],
     "source": {
       "site": "Dolls Art Cats Blog",
       "url": "https://dollsartcats.blogspot.com/2015/01/some-measurements-for-new-super-gem.html"
@@ -1359,7 +1641,18 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/souldoll-zenith-girl/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/souldoll-zenith-girl/02.png"
+      }
+    ],
     "source": {
       "site": "Souldoll官网",
       "url": "https://m.souldoll.com/product/szenith-girl-body/1084/category/1/display/2/"
@@ -1384,7 +1677,23 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/supia-girls60-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/supia-girls60-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/supia-girls60-body/03.jpg"
+      }
+    ],
     "source": {
       "site": "Supia官网",
       "url": "https://supiadollz.net/shop/step1.php?number=53"
@@ -1409,7 +1718,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/switch-hd65boy-attractive/01.jpg"
+      }
+    ],
     "source": {
       "site": "Switch官网",
       "url": "https://from-switch.com/product/hd-65boy-attractive-body/58/"
@@ -1594,7 +1909,18 @@
       "成熟"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/volks-dddy/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-dddy/02.jpg"
+      }
+    ],
     "source": {
       "site": "VOLKS USA",
       "url": "https://volksusa.store/products/dddy-base-body"
@@ -1727,7 +2053,18 @@
       "M",
       "L"
     ],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/volks-dds/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-dds/02.jpg"
+      }
+    ],
     "source": {
       "site": "VOLKS USA",
       "url": "https://volksusa.store/products/dds-base-body"
@@ -1758,6 +2095,16 @@
         "view": "正面",
         "part": "全身",
         "url": "https://raddollclothes.com/cdn/shop/files/MarchHinaMatsuri_{width}x.png?v=1772378432"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-ddp/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-ddp/03.png"
       }
     ],
     "source": {
@@ -1809,7 +2156,18 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/03.jpg"
+      }
+    ],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/2025/07/10/code-noir-aimerai-crossover-project-dolls/"
@@ -1833,7 +2191,23 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/03.jpg"
+      }
+    ],
     "source": {
       "site": "Edelweiss Day",
       "url": "https://edelweissday.com/products/bjd-doll-charmdoll-1-4-girl-body-cdb-g42-04"
@@ -1882,7 +2256,13 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dollzone-b45-016/01.jpg"
+      }
+    ],
     "source": {
       "site": "Dollection",
       "url": "https://www.mydollection.com/product-page/dollzone-45cm-1-4-girl-body-b45-016"
@@ -1906,7 +2286,13 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dreamvalley-b4-19/01.jpg"
+      }
+    ],
     "source": {
       "site": "LegendDoll",
       "url": "https://www.legenddoll.net/goods-32776.html"
@@ -1931,7 +2317,18 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/fairyland-minifee-boy-active/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-minifee-boy-active/02.jpg"
+      }
+    ],
     "source": {
       "site": "Fairyland官网(CP/FairyLand)",
       "url": "https://cpfairyland.com/product/minifee-boy-body-active-line/"
@@ -1959,7 +2356,18 @@
       "Full bust",
       "Glamour bust"
     ],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/fairyland-minifee-girl-moe/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-minifee-girl-moe/02.jpg"
+      }
+    ],
     "source": {
       "site": "Fairyland官网(CP/FairyLand)",
       "url": "https://cpfairyland.com/product/minifee-girl-body-moe-line/"
@@ -2009,7 +2417,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/luts-model-delf-boy/01.jpg"
+      }
+    ],
     "source": {
       "site": "Luts官网",
       "url": "https://m.eluts.com/product/model-delf-boy-body-new-type3-slender/7280/"
@@ -2033,7 +2447,13 @@
       "少年"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/luts-kid-delf-boy/01.jpg"
+      }
+    ],
     "source": {
       "site": "Luts官网",
       "url": "https://eluts.com/product/kid-delf-body-boy-type/3960/"
@@ -2156,7 +2576,18 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/volks-mdd/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/volks-mdd/02.jpg"
+      }
+    ],
     "source": {
       "site": "VOLKS USA",
       "url": "https://volksusa.store/products/mdd-base-body"
@@ -2205,7 +2636,23 @@
       "特殊体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dollchateau-k-body-09-spider/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dollchateau-k-body-09-spider/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dollchateau-k-body-09-spider/03.jpg"
+      }
+    ],
     "source": {
       "site": "BJDivas",
       "url": "https://bjdivas.com/product/in-stock-doll-chateau-k-body-09-elizabeths-spider-body-white/?v=3a52f3c22ed6"
@@ -2253,7 +2700,18 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/fairyland-littlefee-boy/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-littlefee-boy/02.jpg"
+      }
+    ],
     "source": {
       "site": "Fairyland官网(CP/FairyLand)",
       "url": "https://cpfairyland.com/product/littlefee-a-la-carte-boy/"
@@ -2277,7 +2735,13 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/luts-honey-delf/01.jpg"
+      }
+    ],
     "source": {
       "site": "Luts官网",
       "url": "https://eluts.com/product/honey-delf-body-type-2/4001/"
@@ -2302,7 +2766,23 @@
       "丰满"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/01.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/03.png"
+      }
+    ],
     "source": {
       "site": "Meadowdolls 官网",
       "url": "https://www.meadowdolls.org/dumplings"
@@ -2404,7 +2884,13 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-imda-2-6/01.jpg"
+      }
+    ],
     "source": {
       "site": "iMda Doll 官方商店",
       "url": "https://en.imdadoll.shop/product/26-simonne/440/"
@@ -2525,7 +3011,13 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/luts-tiny-delf/01.jpg"
+      }
+    ],
     "source": {
       "site": "Luts官网",
       "url": "https://m.eluts.com/product/tiny-delf-new-body/5763/"
@@ -2549,7 +3041,18 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/03.jpg"
+      }
+    ],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/2018/01/30/secret-doll-updates/"
@@ -2624,7 +3127,23 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-girl/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-girl/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-girl/03.jpg"
+      }
+    ],
     "source": {
       "site": "Good Smile Company",
       "url": "https://www.goodsmile.com/en/product/11854"
@@ -2649,7 +3168,23 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-boy/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-boy/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-boy/03.jpg"
+      }
+    ],
     "source": {
       "site": "Good Smile Company",
       "url": "https://www.goodsmile.com/en/product/8746/Nendoroid+Doll+archetype+1.1+Boy+Cream+"
@@ -2674,7 +3209,23 @@
       "成熟"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-woman/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-woman/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gsc-nendoroid-doll-archetype-1-1-woman/03.jpg"
+      }
+    ],
     "source": {
       "site": "Good Smile Company",
       "url": "https://www.goodsmile.com/en/product/8744/Nendoroid+Doll+archetype+1.1+Woman+Cream+"
@@ -2698,7 +3249,18 @@
       "动漫"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/moowooart-sugar-index-100/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/moowooart-sugar-index-100/03.png"
+      }
+    ],
     "source": {
       "site": "新浪财经",
       "url": "https://finance.sina.com.cn/roll/2025-06-28/doc-infcquyr1798192.shtml"
@@ -2775,7 +3337,13 @@
       "男胸",
       "女胸"
     ],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/ymy-gen2-ob11-body/01.jpg"
+      }
+    ],
     "source": {
       "site": "AliExpress",
       "url": "https://www.aliexpress.com/i/1005004982587330.html"
@@ -2825,7 +3393,23 @@
       "特殊体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-centaur-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/03.jpg"
+      }
+    ],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/tag/centaur-bjd/"
