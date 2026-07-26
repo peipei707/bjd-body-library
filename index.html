@@ -68,6 +68,8 @@
   }
   input[type=search] { width: 220px; }
   .count-note { font-size: 12px; color: var(--ink-2); margin-left: auto; }
+  #f-toggle { display: none; }
+  #f-toggle.on { background: var(--chip-on); border-color: var(--chip-on); color: #fff; }
 
   main { max-width: 1280px; margin: 0 auto; padding: 18px 20px 60px; }
   .group-title {
@@ -133,6 +135,30 @@
   #lb-thumbs .viewtab.on { background: var(--accent); border-color: var(--accent); color: #fff; }
 
   footer { max-width: 1280px; margin: 0 auto; padding: 20px; color: var(--ink-2); font-size: 12px; border-top: 1px solid var(--line); }
+
+  /* 手机端:筛选面板默认收起为一行,卡片双列紧凑 */
+  @media (max-width: 700px) {
+    header { padding: 18px 14px 6px; }
+    header h1 { font-size: 19px; }
+    header h1 small { display: block; margin-left: 0; margin-top: 2px; font-size: 11.5px; }
+    .stats { font-size: 11.5px; }
+    .panel { padding: 8px 12px; }
+    #f-toggle { display: inline-block; flex: none; }
+    .frow.bar { flex-wrap: nowrap; margin-bottom: 0; }
+    .frow.bar input[type=search] { flex: 1; width: auto; min-width: 0; font-size: 16px; padding: 4px 10px; }
+    .frow.bar .count-note { flex: none; }
+    #adv { display: none; }
+    .panel.open #adv { display: block; margin-top: 10px; max-height: 52vh; overflow-y: auto; }
+    #adv .frow { margin-bottom: 10px; }
+    main { padding: 10px 12px 44px; }
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .group-title { margin: 18px 0 2px; font-size: 16px; }
+    .cbody { padding: 7px 9px 10px; gap: 4px; }
+    .cname { font-size: 13px; }
+    .spec { font-size: 11px; }
+    .notes { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    footer { padding: 16px 14px; font-size: 11px; }
+  }
 </style>
 </head>
 <body>
@@ -141,23 +167,28 @@
   <div class="stats" id="stats">加载中…</div>
 </header>
 
-<div class="panel">
-  <div class="frow">
-    <span class="flabel">类型</span><div class="chips" id="f-type"></div>
-    <span class="flabel" style="margin-left:10px">性别</span><div class="chips" id="f-gender"></div>
-    <input type="search" id="f-q" placeholder="搜索名称 / 品牌 / 备注…" style="margin-left:auto">
-  </div>
-  <div class="frow">
-    <span class="flabel">尺寸</span><div class="chips" id="f-size"></div>
-  </div>
-  <div class="frow">
-    <span class="flabel">风格</span><div class="chips" id="f-style"></div>
-  </div>
-  <div class="frow">
-    <span class="flabel">视角</span><div class="chips" id="f-view"></div>
-    <span class="flabel" style="margin-left:10px">品牌</span>
-    <select id="f-brand"><option value="">全部品牌</option></select>
+<div class="panel" id="panel">
+  <div class="frow bar">
+    <button id="f-toggle" class="chip">筛选 ▾</button>
+    <input type="search" id="f-q" placeholder="搜索名称 / 品牌 / 备注…">
     <span class="count-note" id="count-note"></span>
+  </div>
+  <div id="adv">
+    <div class="frow">
+      <span class="flabel">类型</span><div class="chips" id="f-type"></div>
+      <span class="flabel" style="margin-left:10px">性别</span><div class="chips" id="f-gender"></div>
+    </div>
+    <div class="frow">
+      <span class="flabel">尺寸</span><div class="chips" id="f-size"></div>
+    </div>
+    <div class="frow">
+      <span class="flabel">风格</span><div class="chips" id="f-style"></div>
+    </div>
+    <div class="frow">
+      <span class="flabel">视角</span><div class="chips" id="f-view"></div>
+      <span class="flabel" style="margin-left:10px">品牌</span>
+      <select id="f-brand"><option value="">全部品牌</option></select>
+    </div>
   </div>
 </div>
 
@@ -229,6 +260,8 @@ function init() {
   });
   sel.onchange = () => { state.brand = sel.value; render(); };
   document.getElementById("f-q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
+  document.getElementById("f-toggle").onclick = () =>
+    document.getElementById("panel").classList.toggle("open");
 
   const nImg = DATA.reduce((n,d)=>n+(d.views||[]).length,0);
   document.getElementById("stats").textContent =
@@ -311,6 +344,10 @@ function render() {
   main.innerHTML = "";
   const hits = DATA.filter(match);
   document.getElementById("count-note").textContent = `显示 ${hits.length} / ${DATA.length}`;
+  const nOn = (state.type?1:0)+(state.gender?1:0)+(state.size?1:0)+state.styles.size+(state.view?1:0)+(state.brand?1:0);
+  const fbtn = document.getElementById("f-toggle");
+  fbtn.textContent = nOn ? `筛选 · ${nOn}` : "筛选 ▾";
+  fbtn.classList.toggle("on", nOn > 0);
   if (!hits.length) { main.innerHTML = `<div class="empty">没有符合筛选的身体,试试放宽条件。</div>`; return; }
   for (const sc of SIZE_ORDER) {
     const group = hits.filter(d => d.size_class === sc);
