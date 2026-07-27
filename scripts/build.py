@@ -121,9 +121,15 @@ def main():
     )
     (ROOT / "data" / "bodies.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    brands_file = ROOT / "data" / "brands.json"
+    brands = json.loads(brands_file.read_text(encoding="utf-8")) if brands_file.exists() else {}
+    for e in out:
+        if e["brand"] not in brands:
+            problems.append(f"品牌 {e['brand']} 缺 brands.json 条目")
     (ROOT / "data" / "bodies.js").write_text(
-        "// 由 scripts/build.py 生成,勿手改;数据源在 data/raw/*.json\n"
-        "window.BJD_BODIES = " + json.dumps(out, ensure_ascii=False) + ";\n",
+        "// 由 scripts/build.py 生成,勿手改;数据源在 data/raw/*.json 与 data/brands.json\n"
+        "window.BJD_BODIES = " + json.dumps(out, ensure_ascii=False) + ";\n"
+        "window.BJD_BRANDS = " + json.dumps(brands, ensure_ascii=False) + ";\n",
         encoding="utf-8")
 
     n_img = sum(len(e["views"]) for e in out)

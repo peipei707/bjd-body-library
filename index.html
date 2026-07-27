@@ -43,6 +43,8 @@
   header h1 { font-size: 26px; letter-spacing: .04em; }
   header h1 small { font-weight: 400; color: var(--ink-2); font-size: 14px; margin-left: 10px; }
   .stats { color: var(--ink-2); font-size: 13px; margin-top: 6px; }
+  #quicknav { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  #quicknav .chip small { opacity: .65; margin-left: 3px; }
 
   .panel {
     max-width: 1280px; margin: 14px auto 0; padding: 14px 20px 16px;
@@ -74,6 +76,7 @@
   main { max-width: 1280px; margin: 0 auto; padding: 18px 20px 60px; }
   .group-title {
     margin: 26px 0 4px; font-size: 18px; display: flex; align-items: baseline; gap: 10px;
+    scroll-margin-top: 150px;
   }
   .group-title small { color: var(--ink-2); font-size: 12.5px; font-weight: 400; }
   .group-count { font-size: 12px; color: var(--accent); }
@@ -84,7 +87,26 @@
   .card {
     background: var(--card); border: 1px solid var(--line); border-radius: 14px;
     overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column;
+    transition: transform .18s, box-shadow .18s;
   }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(60,40,30,.12), 0 12px 32px rgba(60,40,30,.12); }
+  @media (prefers-reduced-motion: reduce) { .card, .card:hover { transition: none; transform: none; } }
+  .star {
+    position: absolute; top: 6px; right: 6px; z-index: 2; border: none; cursor: pointer;
+    font-size: 17px; line-height: 1; padding: 4px 6px; border-radius: 8px;
+    background: rgba(255,255,255,.75); color: #b78e2c;
+  }
+  .star:not(.on) { color: #a99a90; }
+  #brand-info {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px 16px; margin: 16px 0 4px; box-shadow: var(--shadow);
+  }
+  #brand-info h2 { font-size: 17px; margin-bottom: 4px; }
+  #brand-info h2 small { font-weight: 400; color: var(--ink-2); font-size: 12.5px; margin-left: 8px; }
+  #brand-info p { font-size: 13px; color: var(--ink-2); margin-bottom: 8px; }
+  .relrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12px; }
+  .relrow .chip { font-size: 12px; }
+  .relnote { color: var(--ink-2); margin-right: 6px; }
   .imgbox { position: relative; aspect-ratio: 3/4; background: linear-gradient(160deg, var(--chip), var(--bg)); cursor: zoom-in; }
   .imgbox img { width: 100%; height: 100%; object-fit: contain; display: block; background: #fff; }
   .imgbox .noimg {
@@ -104,7 +126,8 @@
   }
   .cbody { padding: 9px 12px 12px; display: flex; flex-direction: column; gap: 5px; flex: 1; }
   .brandline { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--ink-2); }
-  .brandline b { color: var(--accent); font-weight: 600; }
+  .brandline b { color: var(--accent); font-weight: 600; cursor: pointer; }
+  .brandline b:hover { text-decoration: underline; }
   .cname { font-size: 14.5px; font-weight: 600; line-height: 1.3; }
   .cname small { display: block; font-weight: 400; font-size: 11px; color: var(--ink-2); margin-top: 1px; }
   .spec { font-size: 12px; color: var(--ink-2); }
@@ -175,12 +198,14 @@
 <header>
   <h1>BJD / MJD 身体参考图库 <small>树脂球关节 &amp; 胶皮机械关节 · 素体资料索引</small></h1>
   <div class="stats" id="stats">加载中…</div>
+  <div id="quicknav"></div>
 </header>
 
 <div class="panel" id="panel">
   <div class="frow bar">
     <button id="f-toggle" class="chip">筛选 ▾</button>
     <input type="search" id="f-q" placeholder="搜索名称 / 品牌 / 备注…">
+    <button id="f-fav" class="chip" title="只看收藏">★ 收藏</button>
     <span class="count-note" id="count-note"></span>
   </div>
   <div id="adv">
@@ -226,8 +251,36 @@ const SIZE_DESC = {
   "十二分":"1/12 · 约 10–14cm","其他":"特殊规格"
 };
 const GENDER_CN = { male:"男", female:"女", neutral:"中性" };
+const BRANDS = window.BJD_BRANDS || {};
+const COUNTRY_CN = { JP:"日本", KR:"韩国", CN:"中国", RU:"俄罗斯", FR:"法国", SE:"瑞典", US:"美国", ES:"西班牙" };
 
-const state = { type:"", gender:"", size:"", styles:new Set(), brand:"", q:"" };
+const state = { type:"", gender:"", size:"", styles:new Set(), brand:"", q:"", fav:false };
+let favs = new Set(JSON.parse(localStorage.getItem("bjd-favs") || "[]"));
+const saveFavs = () => localStorage.setItem("bjd-favs", JSON.stringify([...favs]));
+
+function readHash() {
+  try {
+    const p = new URLSearchParams(location.hash.slice(1));
+    state.type = p.get("t") || "";
+    state.gender = p.get("g") || "";
+    state.size = p.get("s") || "";
+    state.brand = p.get("b") || "";
+    state.q = p.get("q") || "";
+    state.fav = p.get("f") === "1";
+    state.styles = new Set((p.get("st") || "").split(",").filter(Boolean));
+  } catch (e) {}
+}
+function writeHash() {
+  const p = new URLSearchParams();
+  if (state.type) p.set("t", state.type);
+  if (state.gender) p.set("g", state.gender);
+  if (state.size) p.set("s", state.size);
+  if (state.styles.size) p.set("st", [...state.styles].join(","));
+  if (state.brand) p.set("b", state.brand);
+  if (state.q) p.set("q", state.q);
+  if (state.fav) p.set("f", "1");
+  history.replaceState(null, "", p.toString() ? "#" + p.toString() : location.pathname);
+}
 
 function chipbar(el, items, get, set, allLabel) {
   const box = document.getElementById(el);
@@ -270,14 +323,26 @@ function init() {
   document.getElementById("f-q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
   document.getElementById("f-toggle").onclick = () =>
     document.getElementById("panel").classList.toggle("open");
+  document.getElementById("f-fav").onclick = () => { state.fav = !state.fav; render(); };
+  readHash();
+  document.getElementById("f-q").value = state.q;
+  sel.value = state.brand;
 
   const nImg = DATA.reduce((n,d)=>n+(d.views||[]).length,0);
   document.getElementById("stats").textContent =
-    `共收录 ${DATA.length} 款身体 · ${brands.length} 个品牌 · ${nImg} 张参考图 · 按尺寸 / 性别 / 风格 / 视角检索`;
+    `共收录 ${DATA.length} 款身体 · ${brands.length} 个品牌 · ${nImg} 张已核验参考图 · 按尺寸 / 性别 / 风格 / 品牌检索`;
   render();
 }
 
+function setBrand(b) {
+  state.brand = b;
+  document.getElementById("f-brand").value = b;
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 function match(d) {
+  if (state.fav && !favs.has(d.id)) return false;
   if (state.type && d.type !== state.type) return false;
   if (state.gender && d.gender !== state.gender) return false;
   if (state.size && d.size_class !== state.size) return false;
@@ -307,9 +372,10 @@ function card(d) {
     d.material ? esc(d.material) : null
   ].filter(Boolean).join(" · ");
   el.innerHTML = `
-    <div class="imgbox">${img}<span class="typetag ${d.type==="BJD"?"bjd":"mjd"}">${esc(d.type)}</span></div>
+    <div class="imgbox">${img}<span class="typetag ${d.type==="BJD"?"bjd":"mjd"}">${esc(d.type)}</span>
+      <button class="star ${favs.has(d.id)?"on":""}" title="收藏">${favs.has(d.id)?"★":"☆"}</button></div>
     <div class="cbody">
-      <div class="brandline"><b>${esc(d.brand)}</b>${d.brand_cn && d.brand_cn!==d.brand ? esc(d.brand_cn) : ""}<span>· ${esc(d.country||"")}</span></div>
+      <div class="brandline"><b title="看这个品牌的全部身体">${esc(d.brand)}</b>${d.brand_cn && d.brand_cn!==d.brand ? esc(d.brand_cn) : ""}<span>· ${esc(d.country||"")}</span></div>
       <div class="cname">${esc(d.name_cn || d.name)}<small>${esc(d.name || "")}</small></div>
       <div class="spec">${spec}</div>
       <div class="tagrow">${(d.styles||[]).map(s=>`<span class="stag">${esc(s)}</span>`).join("")}
@@ -318,7 +384,59 @@ function card(d) {
       <div class="srcline"><a href="${esc(d.source?.url||"#")}" target="_blank" rel="noopener noreferrer">来源:${esc(d.source?.site||"官方页面")} ↗</a></div>
     </div>`;
   if (vs.length) el.querySelector(".imgbox").onclick = () => openLightbox(d, 0);
+  el.querySelector(".star").onclick = e => {
+    e.stopPropagation();
+    favs.has(d.id) ? favs.delete(d.id) : favs.add(d.id);
+    saveFavs();
+    const b = e.currentTarget;
+    b.classList.toggle("on", favs.has(d.id));
+    b.textContent = favs.has(d.id) ? "★" : "☆";
+    syncFavBtn();
+    if (state.fav) render();
+  };
+  el.querySelector(".brandline b").onclick = () => setBrand(d.brand);
   return el;
+}
+
+function syncFavBtn() {
+  const b = document.getElementById("f-fav");
+  b.textContent = favs.size ? `★ 收藏 ${favs.size}` : "★ 收藏";
+  b.classList.toggle("on", state.fav);
+}
+
+function renderBrandInfo(container) {
+  if (!state.brand) return;
+  const info = BRANDS[state.brand];
+  const sample = DATA.find(x => x.brand === state.brand) || {};
+  const box = document.createElement("div");
+  box.id = "brand-info";
+  const cn = info?.cn && info.cn !== state.brand ? info.cn : (sample.brand_cn !== state.brand ? sample.brand_cn : "");
+  const country = COUNTRY_CN[info?.country || sample.country] || "";
+  const rels = (info?.rel || []).filter(([b]) => DATA.some(x => x.brand === b));
+  box.innerHTML = `
+    <h2>${esc(state.brand)}<small>${esc(cn || "")}${country ? " · " + country : ""}</small></h2>
+    ${info?.blurb ? `<p>${esc(info.blurb)}</p>` : ""}
+    <div class="relrow">
+      ${rels.length ? `<span class="relnote">相关品牌:</span>` : ""}
+      ${rels.map(([b, note]) => `<button class="chip" data-b="${esc(b)}" title="${esc(note)}">${esc(b)}</button>`).join("")}
+      ${info?.site ? `<a href="${esc(info.site)}" target="_blank" rel="noopener noreferrer" style="margin-left:auto;font-size:12px">官网 ↗</a>` : ""}
+    </div>`;
+  box.querySelectorAll("[data-b]").forEach(x => x.onclick = () => setBrand(x.dataset.b));
+  container.appendChild(box);
+}
+
+function renderQuicknav(hits) {
+  const nav = document.getElementById("quicknav");
+  nav.innerHTML = "";
+  for (const sc of SIZE_ORDER) {
+    const n = hits.filter(d => d.size_class === sc).length;
+    if (!n) continue;
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.innerHTML = `${sc}<small>${n}</small>`;
+    b.onclick = () => document.getElementById("g-" + sc)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    nav.appendChild(b);
+  }
 }
 
 function render() {
@@ -327,17 +445,22 @@ function render() {
   main.innerHTML = "";
   const hits = DATA.filter(match);
   document.getElementById("count-note").textContent = `显示 ${hits.length} / ${DATA.length}`;
-  const nOn = (state.type?1:0)+(state.gender?1:0)+(state.size?1:0)+state.styles.size+(state.brand?1:0);
+  const nOn = (state.type?1:0)+(state.gender?1:0)+(state.size?1:0)+state.styles.size+(state.brand?1:0)+(state.fav?1:0);
   const fbtn = document.getElementById("f-toggle");
   fbtn.textContent = nOn ? `筛选 · ${nOn}` : "筛选 ▾";
   fbtn.classList.toggle("on", nOn > 0);
-  if (!hits.length) { main.innerHTML = `<div class="empty">没有符合筛选的身体,试试放宽条件。</div>`; return; }
+  syncFavBtn();
+  writeHash();
+  renderQuicknav(hits);
+  renderBrandInfo(main);
+  if (!hits.length) { main.innerHTML += `<div class="empty">没有符合筛选的身体,试试放宽条件。</div>`; return; }
   for (const sc of SIZE_ORDER) {
     const group = hits.filter(d => d.size_class === sc);
     if (!group.length) continue;
     group.sort((a,b) => a.brand.localeCompare(b.brand) || (b.height_cm||0)-(a.height_cm||0));
     const h = document.createElement("div");
     h.className = "group-title";
+    h.id = "g-" + sc;
     h.innerHTML = `${sc} <small>${SIZE_DESC[sc]||""}</small> <span class="group-count">${group.length} 款</span>`;
     main.appendChild(h);
     const g = document.createElement("div");
@@ -376,8 +499,10 @@ function setLb(i) {
   const im = document.getElementById("lb-img");
   im.referrerPolicy = "no-referrer";
   im.src = v.url;
+  const spec = [lbData.height_cm ? lbData.height_cm + "cm" : null, lbData.scale,
+    GENDER_CN[lbData.gender], lbData.material].filter(Boolean).join(" · ");
   document.getElementById("lb-cap").textContent =
-    `${lbData.brand} · ${lbData.name_cn||lbData.name}(${lbIndex+1}/${vs.length})`;
+    `${lbData.brand} · ${lbData.name_cn||lbData.name}(${lbIndex+1}/${vs.length})${spec ? " — " + spec : ""}`;
   const src = document.getElementById("lb-src");
   src.href = lbData.source?.url || "#";
   document.querySelectorAll("#lb-thumbs img").forEach((x,k)=>x.classList.toggle("on",k===lbIndex));
