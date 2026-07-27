@@ -42,5 +42,6 @@ jobs:
             echo "本次没有抓到新图,无需提交"
           else
             git commit -m "Actions:自动抓取官方产品图并重建数据"
+            git pull --rebase origin main || true
             git push
           fi
