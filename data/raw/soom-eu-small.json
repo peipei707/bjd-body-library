@@ -17,18 +17,7 @@
       "肌肉"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/soom-super-gem-male/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-super-gem-male/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "SOOM The Gem 官网",
       "url": "https://gem.dollsoom.com/en/product-category/le-dolls-en/le-super-gem-en/sgm-en/"
@@ -53,23 +42,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/soom-super-gem-female/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-super-gem-female/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-super-gem-female/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Dolls Art Cats Blog",
       "url": "https://dollsartcats.blogspot.com/2015/01/some-measurements-for-new-super-gem.html"
@@ -152,18 +125,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/soom-imda-4-3/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-imda-4-3/06.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "iMda Doll 官方商店",
       "url": "https://en.imdadoll.shop/category/imda-43/45/"
@@ -211,13 +173,7 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/soom-imda-2-6/01.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "iMda Doll 官方商店",
       "url": "https://en.imdadoll.shop/product/26-simonne/440/"
@@ -267,23 +223,7 @@
       "特殊体"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/soom-centaur-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-centaur-body/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/soom-centaur-body/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/tag/centaur-bjd/"
@@ -426,23 +366,7 @@
       "丰满"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/meadowdolls-dumpling/01.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/meadowdolls-dumpling/02.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/meadowdolls-dumpling/03.png"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Meadowdolls 官网",
       "url": "https://www.meadowdolls.org/dumplings"
@@ -516,18 +440,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/fairyland-fairyline-mermaid/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-fairyline-mermaid/02.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "CP/FairyLand 官网",
       "url": "https://cpfairyland.com/product/fairyline-mermaid-body/"
@@ -551,18 +464,7 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/secretdoll-smile-tiny/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/secretdoll-smile-tiny/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/2018/01/30/secret-doll-updates/"

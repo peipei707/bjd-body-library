@@ -265,18 +265,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/fairyland-minifee-boy-active/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-minifee-boy-active/02.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Fairyland官网(CP/FairyLand)",
       "url": "https://cpfairyland.com/product/minifee-boy-body-active-line/"
@@ -300,18 +289,7 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/fairyland-littlefee-boy/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-littlefee-boy/02.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Fairyland官网(CP/FairyLand)",
       "url": "https://cpfairyland.com/product/littlefee-a-la-carte-boy/"
@@ -446,11 +424,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/souldoll-zenith-girl/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/souldoll-zenith-girl/02.png"
       }
     ],
     "source": {
@@ -478,23 +451,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/02.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/03.png"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Dollshe Craft官网",
       "url": "https://www.dollshecraft.com/product/khan-24m-classic-maxi-72cm/"
@@ -525,16 +482,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/dollshe-18m-pure-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-18m-pure-body/02.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-18m-pure-body/03.png"
       }
     ],
     "source": {
@@ -561,13 +508,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/switch-hd65boy-attractive/01.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Switch官网",
       "url": "https://from-switch.com/product/hd-65boy-attractive-body/58/"
@@ -618,23 +559,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/03.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Dollmore官网",
       "url": "https://www.dollmore.net/Mobile/Product/Category/list/cid/255"
@@ -690,16 +615,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/supia-girls60-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/supia-girls60-body/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/supia-girls60-body/03.jpg"
       }
     ],
     "source": {
