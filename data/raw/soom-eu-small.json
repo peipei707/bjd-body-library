@@ -152,7 +152,18 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/06.jpg"
+      }
+    ],
     "source": {
       "site": "iMda Doll 官方商店",
       "url": "https://en.imdadoll.shop/category/imda-43/45/"

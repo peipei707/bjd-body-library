@@ -551,7 +551,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/impldoll-model-girl-63/02.jpg"
+      }
+    ],
     "source": {
       "site": "Alice's Collections",
       "url": "https://www.acbjd.com/impl-63cm-model-girl-body-p-18139.html"
@@ -605,11 +611,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/islanddoll-idf-65-body1/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/islanddoll-idf-65-body1/03.jpg"
       }
     ],
     "source": {
