@@ -48,7 +48,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dikadoll-57cm-girl-body/01.webp"
+      }
+    ],
     "source": {
       "site": "DikaDoll官网",
       "url": "http://www.dkdoll.com/productsen.asp?indid=15"
@@ -73,7 +79,28 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/gem-of-doll-70cm-boy-body/01.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gem-of-doll-70cm-boy-body/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gem-of-doll-70cm-boy-body/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/gem-of-doll-70cm-boy-body/04.jpg"
+      }
+    ],
     "source": {
       "site": "Dolce Luce Dolls",
       "url": "https://www.dolcelucedolls.com/gemofdoll"
@@ -146,7 +173,48 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/01.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/popodoll-60cm-girl-body/08.jpg"
+      }
+    ],
     "source": {
       "site": "Denver Doll",
       "url": "https://www.denverdoll.com/product/popo-basic-girl/"
@@ -171,7 +239,13 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/charmdoll-b93-quarter-boy-body/01.jpg"
+      }
+    ],
     "source": {
       "site": "LegendDoll",
       "url": "https://www.legenddoll.net/goods-14837.html"
@@ -195,7 +269,48 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/charmdoll-cdb-g42-04-girl-body/08.png"
+      }
+    ],
     "source": {
       "site": "Edelweiss Day",
       "url": "https://edelweissday.com/products/bjd-doll-charmdoll-1-4-girl-body-cdb-g42-04"
@@ -244,7 +359,48 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/aimerai-codenoir-mfb-04-quarter-body/08.jpg"
+      }
+    ],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/2025/07/10/code-noir-aimerai-crossover-project-dolls/"
@@ -268,7 +424,28 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/impldoll-62cm-girl-body/01.webp"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/impldoll-62cm-girl-body/02.webp"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/impldoll-62cm-girl-body/04.webp"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/impldoll-62cm-girl-body/05.webp"
+      }
+    ],
     "source": {
       "site": "Dollsphere",
       "url": "https://dollsphere.com/products/impl-doll-62cm-female-body-bjd"
@@ -449,7 +626,33 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/ufdoll-mini-sixth-20cm-girl-body/01.webp"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-mini-sixth-20cm-girl-body/02.webp"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-mini-sixth-20cm-girl-body/04.webp"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-mini-sixth-20cm-girl-body/06.webp"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-mini-sixth-20cm-girl-body/07.webp"
+      }
+    ],
     "source": {
       "site": "DollSphere",
       "url": "https://dollsphere.com/products/ufdoll-1-6-bjd-body-girl"
@@ -498,7 +701,43 @@
       "动漫"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/ufdoll-quarter-female-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-quarter-female-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-quarter-female-body/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-quarter-female-body/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-quarter-female-body/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-quarter-female-body/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/ufdoll-quarter-female-body/08.jpg"
+      }
+    ],
     "source": {
       "site": "DollSphere",
       "url": "https://dollsphere.com/products/ufdoll-new-arrivals-1-4-bjd-body-for-girls"
@@ -523,7 +762,13 @@
       "丰满"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/mozu-doll-60cm-series/01.jpg"
+      }
+    ],
     "source": {
       "site": "MOZU北美官网",
       "url": "https://mozudollna.com/products/60cm-rem-re-zero-series-action-figures-dollwig"
@@ -547,7 +792,38 @@
       "动漫"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/moowooart-sugar-index-100/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/moowooart-sugar-index-100/03.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/moowooart-sugar-index-100/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/moowooart-sugar-index-100/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/moowooart-sugar-index-100/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/moowooart-sugar-index-100/08.jpg"
+      }
+    ],
     "source": {
       "site": "新浪财经",
       "url": "https://finance.sina.com.cn/roll/2025-06-28/doc-infcquyr1798192.shtml"

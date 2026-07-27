@@ -17,7 +17,43 @@
       "肌肉"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-male/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "https://awscdn.gem.dollsoom.com/wp-content/uploads/2022/04/2204_SGM_Heliot_t1_수정.jpg"
+      }
+    ],
     "source": {
       "site": "SOOM The Gem 官网",
       "url": "https://gem.dollsoom.com/en/product-category/le-dolls-en/le-super-gem-en/sgm-en/"
@@ -42,7 +78,48 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-female/08.jpg"
+      }
+    ],
     "source": {
       "site": "Dolls Art Cats Blog",
       "url": "https://dollsartcats.blogspot.com/2015/01/some-measurements-for-new-super-gem.html"
@@ -100,7 +177,48 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-idealian-72/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-72/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-72/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-72/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-72/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-72/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-72/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-idealian-72/08.jpg"
+      }
+    ],
     "source": {
       "site": "SOOM官网",
       "url": "https://id.dollsoom.com/en/featured_item/id72-body/"
@@ -125,7 +243,28 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-4-3/08.jpg"
+      }
+    ],
     "source": {
       "site": "iMda Doll 官方商店",
       "url": "https://en.imdadoll.shop/category/imda-43/45/"
@@ -149,7 +288,28 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-imda-3-0/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-3-0/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-3-0/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-3-0/08.jpg"
+      }
+    ],
     "source": {
       "site": "iMda官方商店",
       "url": "https://en.imdadoll.shop/category/imda-30/44/"
@@ -173,7 +333,28 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-imda-2-6/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-2-6/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-2-6/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-imda-2-6/08.jpg"
+      }
+    ],
     "source": {
       "site": "iMda Doll 官方商店",
       "url": "https://en.imdadoll.shop/product/26-simonne/440/"
@@ -198,7 +379,48 @@
       "成熟"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "https://awscdn.gem.dollsoom.com/wp-content/uploads/2022/04/2204_SGM_Heliot_t1_수정.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-fantasy-heliot/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-fantasy-heliot/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-fantasy-heliot/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-fantasy-heliot/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-fantasy-heliot/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-fantasy-heliot/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-super-gem-fantasy-heliot/08.jpg"
+      }
+    ],
     "source": {
       "site": "SOOM官网",
       "url": "https://gem.dollsoom.com/en/shop/heliot-penetrates-cosmos/"
@@ -223,7 +445,48 @@
       "特殊体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/soom-centaur-body/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/07.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/soom-centaur-body/08.jpg"
+      }
+    ],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/tag/centaur-bjd/"
@@ -366,7 +629,48 @@
       "丰满"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/01.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/02.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/03.png"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/meadowdolls-dumpling/08.jpg"
+      }
+    ],
     "source": {
       "site": "Meadowdolls 官网",
       "url": "https://www.meadowdolls.org/dumplings"
@@ -390,7 +694,38 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/dust-of-dolls-cham/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dust-of-dolls-cham/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dust-of-dolls-cham/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dust-of-dolls-cham/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dust-of-dolls-cham/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/dust-of-dolls-cham/08.jpg"
+      }
+    ],
     "source": {
       "site": "Dust of Dolls官网",
       "url": "https://dustofdolls.com/en/cham/97-namu-peche.html"
@@ -415,7 +750,38 @@
       "动漫"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/fairyland-pukipuki/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-pukipuki/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-pukipuki/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-pukipuki/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-pukipuki/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-pukipuki/08.jpg"
+      }
+    ],
     "source": {
       "site": "cpfairyland.com",
       "url": "https://cpfairyland.com/product/pukipuki-a-la-carte/"
@@ -440,7 +806,28 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/fairyland-fairyline-mermaid/08.jpg"
+      }
+    ],
     "source": {
       "site": "CP/FairyLand 官网",
       "url": "https://cpfairyland.com/product/fairyline-mermaid-body/"
@@ -464,7 +851,48 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [],
+    "views": [
+      {
+        "view": "正面",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/01.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/02.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/03.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/04.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/05.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/06.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/07.jpg"
+      },
+      {
+        "view": "细节",
+        "part": "全身",
+        "url": "images/secretdoll-smile-tiny/08.jpg"
+      }
+    ],
     "source": {
       "site": "BJD Collectasy",
       "url": "https://bjdcollectasy.com/2018/01/30/secret-doll-updates/"
