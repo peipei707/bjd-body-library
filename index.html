@@ -86,7 +86,7 @@
     overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column;
   }
   .imgbox { position: relative; aspect-ratio: 3/4; background: linear-gradient(160deg, var(--chip), var(--bg)); cursor: zoom-in; }
-  .imgbox img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .imgbox img { width: 100%; height: 100%; object-fit: contain; display: block; background: #fff; }
   .imgbox .noimg {
     position: absolute; inset: 0; display: flex; flex-direction: column; gap: 6px;
     align-items: center; justify-content: center; color: var(--ink-2); font-size: 12.5px;
@@ -98,12 +98,10 @@
   }
   .typetag.bjd { background: #b0526b; }
   .typetag.mjd { background: #4f7fa8; }
-  .viewtabs { display: flex; gap: 4px; padding: 6px 8px 0; flex-wrap: wrap; }
-  .viewtab {
-    font-size: 11px; padding: 1px 8px; border-radius: 6px; cursor: pointer;
-    border: 1px solid var(--line); background: var(--chip); color: var(--ink-2);
+  .imgcount {
+    position: absolute; right: 8px; bottom: 8px; font-size: 11px; padding: 2px 8px;
+    border-radius: 6px; color: #fff; background: rgba(20,12,10,.55);
   }
-  .viewtab.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
   .cbody { padding: 9px 12px 12px; display: flex; flex-direction: column; gap: 5px; flex: 1; }
   .brandline { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--ink-2); }
   .brandline b { color: var(--accent); font-weight: 600; }
@@ -124,15 +122,27 @@
   .empty { text-align: center; color: var(--ink-2); padding: 80px 0; }
 
   #lightbox {
-    position: fixed; inset: 0; background: rgba(20,12,10,.86); z-index: 99;
-    display: none; align-items: center; justify-content: center; flex-direction: column; gap: 12px;
+    position: fixed; inset: 0; background: rgba(20,12,10,.9); z-index: 99;
+    display: none; align-items: center; justify-content: center; flex-direction: column; gap: 10px;
   }
   #lightbox.show { display: flex; }
-  #lightbox img { max-width: 92vw; max-height: 78vh; border-radius: 8px; background: #fff; }
-  #lb-cap { color: #f0e8e2; font-size: 13px; text-align: center; padding: 0 16px; }
-  #lb-thumbs { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; max-width: 92vw; }
-  #lb-thumbs .viewtab { background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.25); color: #eee; }
-  #lb-thumbs .viewtab.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #lb-img { max-width: 94vw; max-height: 70vh; border-radius: 8px; background: #fff; }
+  #lb-top { color: #f0e8e2; font-size: 14px; text-align: center; padding: 0 56px; display: flex; gap: 12px; align-items: center; justify-content: center; flex-wrap: wrap; }
+  #lb-top a { color: #f2b8c8; }
+  #lb-thumbs { display: flex; gap: 8px; overflow-x: auto; max-width: 94vw; padding: 4px 8px; }
+  #lb-thumbs img {
+    height: 62px; width: auto; border-radius: 6px; border: 2px solid transparent;
+    cursor: pointer; background: #fff; flex: none;
+  }
+  #lb-thumbs img.on { border-color: var(--accent); }
+  .lb-btn {
+    position: fixed; top: 50%; transform: translateY(-50%); z-index: 100;
+    font-size: 30px; line-height: 1; color: #fff; background: rgba(255,255,255,.14);
+    border: none; border-radius: 10px; padding: 12px 14px; cursor: pointer;
+  }
+  .lb-btn:hover { background: rgba(255,255,255,.28); }
+  #lb-prev { left: 12px; }
+  #lb-next { right: 12px; }
 
   footer { max-width: 1280px; margin: 0 auto; padding: 20px; color: var(--ink-2); font-size: 12px; border-top: 1px solid var(--line); }
 
@@ -185,8 +195,7 @@
       <span class="flabel">风格</span><div class="chips" id="f-style"></div>
     </div>
     <div class="frow">
-      <span class="flabel">视角</span><div class="chips" id="f-view"></div>
-      <span class="flabel" style="margin-left:10px">品牌</span>
+      <span class="flabel">品牌</span>
       <select id="f-brand"><option value="">全部品牌</option></select>
     </div>
   </div>
@@ -195,8 +204,10 @@
 <main id="main"></main>
 
 <div id="lightbox">
+  <button class="lb-btn" id="lb-prev" aria-label="上一张">‹</button>
   <img id="lb-img" alt="">
-  <div id="lb-cap"></div>
+  <button class="lb-btn" id="lb-next" aria-label="下一张">›</button>
+  <div id="lb-top"><span id="lb-cap"></span><a id="lb-src" target="_blank" rel="noopener noreferrer">来源页 ↗</a></div>
   <div id="lb-thumbs"></div>
 </div>
 
@@ -215,9 +226,8 @@ const SIZE_DESC = {
   "十二分":"1/12 · 约 10–14cm","其他":"特殊规格"
 };
 const GENDER_CN = { male:"男", female:"女", neutral:"中性" };
-const VIEWS = ["正面","背面","侧面","细节"];
 
-const state = { type:"", gender:"", size:"", styles:new Set(), view:"", brand:"", q:"" };
+const state = { type:"", gender:"", size:"", styles:new Set(), brand:"", q:"" };
 
 function chipbar(el, items, get, set, allLabel) {
   const box = document.getElementById(el);
@@ -247,8 +257,6 @@ function init() {
     if (!v) state.styles.clear();
     else state.styles.has(v) ? state.styles.delete(v) : state.styles.add(v);
   });
-  chipbar("f-view", VIEWS, v => state.view===v, v => state.view = v);
-
   const brands = [...new Set(DATA.map(d => d.brand))].sort();
   const sel = document.getElementById("f-brand");
   brands.forEach(b => {
@@ -275,7 +283,6 @@ function match(d) {
   if (state.size && d.size_class !== state.size) return false;
   if (state.brand && d.brand !== state.brand) return false;
   if (state.styles.size && ![...state.styles].every(s => (d.styles||[]).includes(s))) return false;
-  if (state.view && !(d.views||[]).some(v => v.view === state.view)) return false;
   if (state.q) {
     const hay = [d.brand,d.brand_cn,d.name,d.name_cn,d.notes,(d.styles||[]).join(" ")].join(" ").toLowerCase();
     if (!hay.includes(state.q)) return false;
@@ -283,29 +290,16 @@ function match(d) {
   return true;
 }
 
-function pickView(d) {
-  const vs = d.views || [];
-  if (!vs.length) return -1;
-  if (state.view) {
-    const i = vs.findIndex(v => v.view === state.view);
-    if (i >= 0) return i;
-  }
-  const i = vs.findIndex(v => v.view === "正面");
-  return i >= 0 ? i : 0;
-}
-
 function card(d) {
   const el = document.createElement("div");
   el.className = "card";
-  const vi = pickView(d);
   const vs = d.views || [];
-  const img = vi >= 0 ? `
-    <img src="${esc(vs[vi].url)}" alt="${esc(d.name)}" loading="lazy" referrerpolicy="no-referrer"
+  const img = vs.length ? `
+    <img src="${esc(vs[0].url)}" alt="${esc(d.name)}" loading="lazy" referrerpolicy="no-referrer"
          onerror="this.style.display='none';this.parentNode.querySelector('.noimg').style.display='flex'">
-    <div class="noimg" style="display:none"><span class="glyph">🩰</span>图片被来源站防盗链<br>请点下方「来源」查看</div>`
+    <div class="noimg" style="display:none"><span class="glyph">🩰</span>图片加载失败<br>请点下方「来源」查看</div>
+    ${vs.length > 1 ? `<span class="imgcount">${vs.length} 图</span>` : ""}`
     : `<div class="noimg"><span class="glyph">🩰</span>暂无直链图 · 见来源页</div>`;
-  const tabs = vs.length > 1 ? `<div class="viewtabs">` + vs.map((v,i) =>
-      `<span class="viewtab ${i===vi?'on':''}" data-i="${i}">${esc(v.view)}·${esc(v.part)}</span>`).join("") + `</div>` : "";
   const spec = [
     d.height_cm ? `<b>${d.height_cm}cm</b>` : null,
     d.scale ? esc(d.scale) : null,
@@ -314,7 +308,6 @@ function card(d) {
   ].filter(Boolean).join(" · ");
   el.innerHTML = `
     <div class="imgbox">${img}<span class="typetag ${d.type==="BJD"?"bjd":"mjd"}">${esc(d.type)}</span></div>
-    ${tabs}
     <div class="cbody">
       <div class="brandline"><b>${esc(d.brand)}</b>${d.brand_cn && d.brand_cn!==d.brand ? esc(d.brand_cn) : ""}<span>· ${esc(d.country||"")}</span></div>
       <div class="cname">${esc(d.name_cn || d.name)}<small>${esc(d.name || "")}</small></div>
@@ -324,17 +317,7 @@ function card(d) {
       ${d.notes ? `<div class="notes">${esc(d.notes)}</div>` : ""}
       <div class="srcline"><a href="${esc(d.source?.url||"#")}" target="_blank" rel="noopener noreferrer">来源:${esc(d.source?.site||"官方页面")} ↗</a></div>
     </div>`;
-  const imgbox = el.querySelector(".imgbox");
-  if (vs.length) imgbox.onclick = () => openLightbox(d, Math.max(vi,0));
-  el.querySelectorAll(".viewtab").forEach(t => t.onclick = e => {
-    e.stopPropagation();
-    const i = +t.dataset.i;
-    const im = imgbox.querySelector("img");
-    const no = imgbox.querySelector(".noimg");
-    if (im) { im.style.display = ""; im.src = vs[i].url; }
-    if (no) no.style.display = "none";
-    el.querySelectorAll(".viewtab").forEach(x => x.classList.toggle("on", x===t));
-  });
+  if (vs.length) el.querySelector(".imgbox").onclick = () => openLightbox(d, 0);
   return el;
 }
 
@@ -344,7 +327,7 @@ function render() {
   main.innerHTML = "";
   const hits = DATA.filter(match);
   document.getElementById("count-note").textContent = `显示 ${hits.length} / ${DATA.length}`;
-  const nOn = (state.type?1:0)+(state.gender?1:0)+(state.size?1:0)+state.styles.size+(state.view?1:0)+(state.brand?1:0);
+  const nOn = (state.type?1:0)+(state.gender?1:0)+(state.size?1:0)+state.styles.size+(state.brand?1:0);
   const fbtn = document.getElementById("f-toggle");
   fbtn.textContent = nOn ? `筛选 · ${nOn}` : "筛选 ▾";
   fbtn.classList.toggle("on", nOn > 0);
@@ -364,33 +347,53 @@ function render() {
   }
 }
 
-let lbData = null;
+let lbData = null, lbIndex = 0;
 function openLightbox(d, i) {
-  lbData = d;
+  lbData = d; lbIndex = i;
   const lb = document.getElementById("lightbox");
   lb.classList.add("show");
-  setLb(i);
   const th = document.getElementById("lb-thumbs");
   th.innerHTML = "";
   (d.views||[]).forEach((v, j) => {
-    const b = document.createElement("span");
-    b.className = "viewtab" + (j===i?" on":"");
-    b.textContent = `${v.view}·${v.part}`;
-    b.onclick = e => { e.stopPropagation(); setLb(j);
-      th.querySelectorAll(".viewtab").forEach((x,k)=>x.classList.toggle("on",k===j)); };
-    th.appendChild(b);
+    const t = document.createElement("img");
+    t.src = v.url;
+    t.referrerPolicy = "no-referrer";
+    t.loading = "lazy";
+    t.alt = `${v.view}·${v.part}`;
+    t.onclick = e => { e.stopPropagation(); setLb(j); };
+    th.appendChild(t);
   });
+  const many = (d.views||[]).length > 1;
+  document.getElementById("lb-prev").style.display = many ? "" : "none";
+  document.getElementById("lb-next").style.display = many ? "" : "none";
+  th.style.display = many ? "" : "none";
+  setLb(i);
 }
 function setLb(i) {
-  const v = (lbData.views||[])[i];
+  const vs = lbData.views || [];
+  lbIndex = (i + vs.length) % vs.length;
+  const v = vs[lbIndex];
   const im = document.getElementById("lb-img");
   im.referrerPolicy = "no-referrer";
   im.src = v.url;
   document.getElementById("lb-cap").textContent =
-    `${lbData.brand} · ${lbData.name_cn||lbData.name} — ${v.view}·${v.part}`;
+    `${lbData.brand} · ${lbData.name_cn||lbData.name}(${lbIndex+1}/${vs.length})`;
+  const src = document.getElementById("lb-src");
+  src.href = lbData.source?.url || "#";
+  document.querySelectorAll("#lb-thumbs img").forEach((x,k)=>x.classList.toggle("on",k===lbIndex));
 }
-document.getElementById("lightbox").onclick = () => document.getElementById("lightbox").classList.remove("show");
-document.addEventListener("keydown", e => { if (e.key==="Escape") document.getElementById("lightbox").classList.remove("show"); });
+const lbEl = document.getElementById("lightbox");
+lbEl.onclick = () => lbEl.classList.remove("show");
+for (const id of ["lb-img","lb-top","lb-thumbs"])
+  document.getElementById(id).onclick = e => e.stopPropagation();
+document.getElementById("lb-prev").onclick = e => { e.stopPropagation(); setLb(lbIndex-1); };
+document.getElementById("lb-next").onclick = e => { e.stopPropagation(); setLb(lbIndex+1); };
+document.addEventListener("keydown", e => {
+  if (!lbEl.classList.contains("show")) return;
+  if (e.key === "Escape") lbEl.classList.remove("show");
+  if (e.key === "ArrowLeft") setLb(lbIndex-1);
+  if (e.key === "ArrowRight") setLb(lbIndex+1);
+});
 
 function esc(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 init();
