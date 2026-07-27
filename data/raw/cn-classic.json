@@ -53,33 +53,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/as-62-female-body/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/as-62-female-body/02.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/as-62-female-body/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/as-62-female-body/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/as-62-female-body/07.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Angell Studio官网",
       "url": "https://angell-studio.com/as62cm-racrimosa_p0302.html"
@@ -502,17 +476,7 @@
       {
         "view": "正面",
         "part": "全身",
-        "url": "images/dfh-72-boy-ver2/01.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
         "url": "images/dfh-72-boy-ver2/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dfh-72-boy-ver2/03.jpg"
       },
       {
         "view": "细节",
@@ -635,38 +599,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/impldoll-model-girl-63/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/impldoll-model-girl-63/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/impldoll-model-girl-63/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/impldoll-model-girl-63/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/impldoll-model-girl-63/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/impldoll-model-girl-63/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Alice's Collections",
       "url": "https://www.acbjd.com/impl-63cm-model-girl-body-p-18139.html"
@@ -691,13 +624,7 @@
       "肌肉"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/islanddoll-norse-73-body/01.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "LegendDoll",
       "url": "https://www.legenddoll.net/goods-7475.html"
@@ -721,38 +648,7 @@
       "青年"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/islanddoll-idf-65-body1/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/islanddoll-idf-65-body1/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/islanddoll-idf-65-body1/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/islanddoll-idf-65-body1/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/islanddoll-idf-65-body1/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/islanddoll-idf-65-body1/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Alice's Collections",
       "url": "http://www.acbjd.com/idf-65cm-boy-body1-p-7203.html?cPath=1_0_415_416"
@@ -808,38 +704,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/2ddoll-68-girl-body/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/2ddoll-68-girl-body/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/2ddoll-68-girl-body/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/2ddoll-68-girl-body/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/2ddoll-68-girl-body/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/2ddoll-68-girl-body/07.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Alice's Collections",
       "url": "https://www.acbjd.com/2d-68cm-girl-body-p-19248.html"
@@ -907,16 +772,6 @@
       {
         "view": "正面",
         "part": "全身",
-        "url": "images/myou-13-girl-58/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/myou-13-girl-58/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
         "url": "images/myou-13-girl-58/04.jpg"
       },
       {
@@ -963,43 +818,7 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/myou-14-girl-ver2-44/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/myou-14-girl-ver2-44/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/myou-14-girl-ver2-44/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/myou-14-girl-ver2-44/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/myou-14-girl-ver2-44/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/myou-14-girl-ver2-44/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/myou-14-girl-ver2-44/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "MYOU官网",
       "url": "https://www.myou-doll.com/en/product/product226.html"

@@ -201,28 +201,7 @@
     "bust_options": [
       "Large bust"
     ],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/fairyland-feeple65-girl/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-feeple65-girl/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-feeple65-girl/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-feeple65-girl/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "cpfairyland.com",
       "url": "https://cpfairyland.com/product/feeple65-nuia-basic/"
@@ -290,16 +269,6 @@
       {
         "view": "正面",
         "part": "全身",
-        "url": "images/fairyland-minifee-boy-active/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-minifee-boy-active/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
         "url": "images/fairyland-minifee-boy-active/07.jpg"
       },
       {
@@ -331,28 +300,7 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/fairyland-littlefee-boy/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-littlefee-boy/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-littlefee-boy/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-littlefee-boy/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Fairyland官网(CP/FairyLand)",
       "url": "https://cpfairyland.com/product/littlefee-a-la-carte-boy/"
@@ -376,23 +324,7 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/fairyland-pukifee/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-pukifee/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/fairyland-pukifee/07.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "cpfairyland.com",
       "url": "https://cpfairyland.com/product/pukifee-a-la-carte/"
@@ -541,38 +473,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/02.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/03.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollshe-khan-24m-classic-maxi/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Dollshe Craft官网",
       "url": "https://www.dollshecraft.com/product/khan-24m-classic-maxi-72cm/"
@@ -633,16 +534,6 @@
       {
         "view": "正面",
         "part": "全身",
-        "url": "images/switch-hd65boy-attractive/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/switch-hd65boy-attractive/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
         "url": "images/switch-hd65boy-attractive/05.jpg"
       },
       {
@@ -685,23 +576,7 @@
       "肌肉"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/migidoll-guy-body-2/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/migidoll-guy-body-2/05.png"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/migidoll-guy-body-2/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Migidoll官网",
       "url": "http://www.migidoll.com/shop/step1.php?number=1128"
@@ -727,48 +602,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollmore-model-doll-f/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Dollmore官网",
       "url": "https://www.dollmore.net/Mobile/Product/Category/list/cid/255"
@@ -797,11 +631,6 @@
     "views": [
       {
         "view": "正面",
-        "part": "全身",
-        "url": "https://www.dollmore.net/storage/dollmorenetEN/www/prefix/product/2023/48/T/product.21205.170115179367862..5C.120.120.jpeg"
-      },
-      {
-        "view": "细节",
         "part": "全身",
         "url": "images/dollmore-trinity-f/02.jpg"
       }
@@ -871,21 +700,6 @@
         "view": "细节",
         "part": "全身",
         "url": "images/dollstown-18years-boy/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollstown-18years-boy/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollstown-18years-boy/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/dollstown-18years-boy/08.jpg"
       }
     ],
     "source": {
@@ -920,11 +734,6 @@
         "view": "正面",
         "part": "全身",
         "url": "images/littlemonica-harmony-girl/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/littlemonica-harmony-girl/02.jpg"
       },
       {
         "view": "细节",
@@ -979,28 +788,7 @@
       "幼体"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/lati-yellow-girl/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/lati-yellow-girl/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/lati-yellow-girl/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/lati-yellow-girl/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Latidoll官网",
       "url": "https://m.latidoll.com/product/basic-ver-haru/1636/display/1/"

@@ -42,18 +42,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/volks-sd13-girl/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd13-girl/02.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "VOLKS USA",
       "url": "https://volksusa.store/products/sd13-girl-chloe-jan-2026"
@@ -103,43 +92,7 @@
       "成熟"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/volks-sdgr-girl/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sdgr-girl/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sdgr-girl/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sdgr-girl/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sdgr-girl/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sdgr-girl/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sdgr-girl/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "VOLKS官方商店",
       "url": "https://dollfie.ec.volks.co.jp/item/4518992437255.html"
@@ -167,31 +120,6 @@
     "views": [
       {
         "view": "正面",
-        "part": "全身",
-        "url": "images/volks-sd16-boy/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd16-boy/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd16-boy/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd16-boy/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd16-boy/05.jpg"
-      },
-      {
-        "view": "细节",
         "part": "全身",
         "url": "images/volks-sd16-boy/06.png"
       }
@@ -225,33 +153,7 @@
       "M",
       "L"
     ],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/volks-sd16-girl/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd16-girl/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd16-girl/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd16-girl/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/volks-sd16-girl/06.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "VOLKS官方商店",
       "url": "https://dollfie.ec.volks.co.jp/item/4518992423029.html"
@@ -301,13 +203,7 @@
       "纤细"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/volks-msd/01.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "VOLKS官网",
       "url": "https://dollfie.volks.co.jp/sd/about_bodysize/"
@@ -586,13 +482,7 @@
       "Slim",
       "Macho"
     ],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/smartdoll-guy/01.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Tumblr (Smart Doll Measurements)",
       "url": "https://www.tumblr.com/medalis-blog/133614070565/smart-doll-measurements-ebonyivorykizunamirai"
@@ -621,22 +511,12 @@
       {
         "view": "正面",
         "part": "全身",
-        "url": "images/obitsu-11/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
         "url": "images/obitsu-11/02.jpg"
       },
       {
         "view": "细节",
         "part": "全身",
         "url": "images/obitsu-11/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/obitsu-11/04.jpg"
       },
       {
         "view": "细节",
@@ -698,11 +578,6 @@
         "view": "细节",
         "part": "全身",
         "url": "images/obitsu-24/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/obitsu-24/08.jpg"
       }
     ],
     "source": {
@@ -783,43 +658,7 @@
       "少女"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/05.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/06.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/07.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/azone-pure-neemo-flection/08.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "AZONE官网",
       "url": "https://www.azone-int.co.jp/azonet/item/4573199841397"
@@ -870,33 +709,7 @@
       "写实"
     ],
     "bust_options": [],
-    "views": [
-      {
-        "view": "正面",
-        "part": "全身",
-        "url": "images/angelphilia-vmf50/01.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/angelphilia-vmf50/02.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/angelphilia-vmf50/03.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/angelphilia-vmf50/04.jpg"
-      },
-      {
-        "view": "细节",
-        "part": "全身",
-        "url": "images/angelphilia-vmf50/06.jpg"
-      }
-    ],
+    "views": [],
     "source": {
       "site": "Angel Philia官方",
       "url": "https://quarantotto.biz/angelphilia/%E6%96%B0%E8%A3%BD%E5%93%81%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%BA%E6%83%85%E5%A0%B1%EF%BC%81angel-philia-pink-drops-7459.html"
